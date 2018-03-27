@@ -33,7 +33,7 @@ ELSE            : 'else' ;
 
 // Other symbols
 NEWLINE         : '\r\n' | '\r' | '\n' ;
-SPACE           : [\t ]+ -> skip ;
+SPACE           : [\t ]+ ;
 SEP             : ';' ;
 LPAREN          : '(' ;
 RPAREN          : ')' ;

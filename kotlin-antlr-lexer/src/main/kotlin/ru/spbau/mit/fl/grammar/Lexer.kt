@@ -1,15 +1,23 @@
 package ru.spbau.mit.fl.grammar
 
-import org.antlr.v4.runtime.ANTLRInputStream
+import org.antlr.runtime.ANTLRInputStream
+import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.Token
 import java.io.StringReader
 import java.util.*
 
-class Lexer {
+class Lexer(code: String) {
 
-    fun lexerFor(code: String) = LLexer(ANTLRInputStream(StringReader(code)))
+    private val lexer: LLexer = LLexer(CharStreams.fromReader(StringReader(code)))
 
-    fun tokenize(lexer: LLexer): List<TokenRepresentation> {
+    public fun run() {
+        val tokens = tokenize(lexer)
+        for (nextToken: TokenRepresentation in tokens) {
+            nextToken.represent()
+        }
+    }
+
+    private fun tokenize(lexer: LLexer): List<TokenRepresentation> {
         val tokens = LinkedList<TokenRepresentation>()
         do {
             val t = lexer.nextToken()
@@ -21,7 +29,7 @@ class Lexer {
         return tokens
     }
 
-    fun representTokenList(tokens: List<TokenRepresentation>) {
+    private fun representTokenList(tokens: List<TokenRepresentation>) {
         for (nextToken: TokenRepresentation in tokens) {
             nextToken.represent()
         }
@@ -29,6 +37,6 @@ class Lexer {
 }
 
 fun main(args: Array<String>) {
-    val lexer = Lexer()
-    lexer.representTokenList(lexer.tokenize(lexer.lexerFor("a := 5; read(b); c := b * 2; write(a+c)")))
+    val lexer: Lexer = Lexer("a := 5; read(b); c := b * 2; write(a+c)")
+    lexer.run()
 }

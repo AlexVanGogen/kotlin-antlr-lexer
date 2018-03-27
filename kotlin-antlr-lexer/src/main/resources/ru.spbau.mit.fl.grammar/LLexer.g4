@@ -35,3 +35,7 @@ ELSE            : 'else' ;
 NEWLINE         : '\r\n' | '\r' | '\n' ;
 SPACE           : [\t ]+ -> skip ;
 SEP             : ';' ;
+LPAREN          : '(' ;
+RPAREN          : ')' ;
+LFIG            : '{' ;
+RFIG            : '}' ;

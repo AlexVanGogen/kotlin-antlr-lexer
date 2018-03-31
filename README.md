@@ -87,3 +87,5 @@ $ ./lexer.sh -f examples/bad/strangeSymbols2.l
 ```
 token recognition error at: 'ई' (line: 1, position: 5)
 ```
+
+Примеры хороших и плохих программ можно найти в папке `examples/`.

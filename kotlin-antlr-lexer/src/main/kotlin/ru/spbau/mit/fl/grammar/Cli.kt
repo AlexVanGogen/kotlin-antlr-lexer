@@ -25,7 +25,15 @@ fun main(args: Array<String>) {
     } else {
         when (args[0]) {
             "-c" -> lexer = Lexer.fromString(readInput())
-            "-f" -> if (args.size < 2) { help(); return; } else lexer = Lexer.fromFile(args[1])
+            "-f" -> try {
+                lexer = Lexer.fromFile(args[1])
+            } catch (e: IndexOutOfBoundsException) {
+                help()
+                return
+            } catch (e: java.nio.file.NoSuchFileException) {
+                println("${args[1]}: file not found")
+                return
+            }
             else -> { help(); return; }
         }
         try {

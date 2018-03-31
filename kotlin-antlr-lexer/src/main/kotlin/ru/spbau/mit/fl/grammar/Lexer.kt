@@ -44,7 +44,7 @@ class Lexer {
             try {
                 t = lexer.getNextToken()
             } catch (e: LexerException) {
-                throw LexerException(e.message + " (line: ${lastToken?.line ?: -1}, position: ${1 + lastToken?.endIndex!! ?: -1})")
+                throw LexerException(e.message + " (line: ${lastToken?.line ?: -1}, position: ${lastToken?.endIndex?.plus(1) ?: -1})")
             }
             if (t!!.line > prevLine) {
                 lengthShift = -prevLength - if (prevLine != -1) 1 else 0

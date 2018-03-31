@@ -1,17 +1,33 @@
 package ru.spbau.mit.fl.grammar
 
-import org.antlr.runtime.ANTLRInputStream
 import org.antlr.v4.runtime.CharStreams
 import org.antlr.v4.runtime.Token
+import java.io.File
 import java.io.StringReader
+import java.nio.file.Paths
 import java.util.*
 
-class Lexer(code: String) {
+class Lexer {
 
-    private val lexer: LLexer = LLexer(CharStreams.fromReader(StringReader(code)))
+    private var lexer: LLexer = LLexer(null)
 
-    public fun run() {
-        val tokens = tokenize(lexer)
+    companion object {
+        fun fromString(code: String): Lexer {
+            var l = Lexer()
+            l.lexer = LLexer(CharStreams.fromReader(StringReader(code)))
+            return l
+        }
+
+        public fun fromFile(codeFile: String): Lexer {
+            var l = Lexer()
+            l.lexer = LLexer(CharStreams.fromFileName(codeFile))
+            return l
+        }
+    }
+
+    public fun run(): List<TokenRepresentation> = tokenize(lexer)
+
+    public fun representTokenList(tokens: List<TokenRepresentation>) {
         for (nextToken: TokenRepresentation in tokens) {
             nextToken.represent()
         }
@@ -19,24 +35,31 @@ class Lexer(code: String) {
 
     private fun tokenize(lexer: LLexer): List<TokenRepresentation> {
         val tokens = LinkedList<TokenRepresentation>()
+        var prevLine = -1
+        var prevLength = 0
+        var lengthShift = 0
         do {
-            val t = lexer.nextToken()
+            var t: Token? = lexer.getNextToken()
+            if (t!!.line > prevLine) {
+                lengthShift = -prevLength - if (prevLine != -1) 1 else 0
+                prevLine = t.line
+            }
             when (t.type) {
                 -1 -> {}
-                else -> if (t.type != LLexer.SPACE) tokens.add(TokenRepresentation(lexer.ruleNames[t.type - 1], t.startIndex, t.stopIndex, t.text))
+                else -> tokens.add(TokenRepresentation(
+                        lexer.ruleNames[t.type - 1],
+                        t.line,
+                        t.startIndex + lengthShift,
+                        t.stopIndex + 1 + lengthShift,
+                        t.text))
             }
-        } while (t.type != -1)
+            prevLength = t.stopIndex + 1
+        } while (t!!.type != -1)
         return tokens
-    }
-
-    private fun representTokenList(tokens: List<TokenRepresentation>) {
-        for (nextToken: TokenRepresentation in tokens) {
-            nextToken.represent()
-        }
     }
 }
 
 fun main(args: Array<String>) {
-    val lexer: Lexer = Lexer("a := 5; read(b); c := b * 2; write(a+c)")
-    lexer.run()
+    val lexer = Lexer.fromString("123abc")
+    lexer.representTokenList(lexer.run())
 }

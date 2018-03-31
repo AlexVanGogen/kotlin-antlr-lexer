@@ -38,20 +38,29 @@ class Lexer {
         var prevLine = -1
         var prevLength = 0
         var lengthShift = 0
+        var lastToken: TokenRepresentation? = null
         do {
-            var t: Token? = lexer.getNextToken()
+            var t: Token?
+            try {
+                t = lexer.getNextToken()
+            } catch (e: LexerException) {
+                throw LexerException(e.message + " (line: ${lastToken?.line ?: -1}, position: ${1 + lastToken?.endIndex!! ?: -1})")
+            }
             if (t!!.line > prevLine) {
                 lengthShift = -prevLength - if (prevLine != -1) 1 else 0
                 prevLine = t.line
             }
             when (t.type) {
                 -1 -> {}
-                else -> tokens.add(TokenRepresentation(
-                        lexer.ruleNames[t.type - 1],
-                        t.line,
-                        t.startIndex + lengthShift,
-                        t.stopIndex + 1 + lengthShift,
-                        t.text))
+                else -> {
+                    lastToken = TokenRepresentation(
+                            lexer.ruleNames[t.type - 1],
+                            t.line,
+                            t.startIndex + lengthShift,
+                            t.stopIndex + 1 + lengthShift,
+                            t.text)
+                    tokens.add(lastToken)
+                }
             }
             prevLength = t.stopIndex + 1
         } while (t!!.type != -1)

@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/AlexVanGogen/kotlin-antlr-lexer.git
 cd kotlin-antlr-lexer/kotlin-antlr-lexer
-./requirements.sh
+sh requirements.sh
 ```
 
 ## Инструкция по запуску

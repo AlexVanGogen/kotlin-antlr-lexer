@@ -1,4 +1,4 @@
-fun foo(x, y) <-
+fun foo(x, y) <- {
     ans := 0.0;
     while (x != true && y != false) {
         ans := ans + 1;
@@ -8,4 +8,5 @@ fun foo(x, y) <-
     if (ans >= 5.0) {
         ans := ans - 4.9;
     }
-    return ans
+    return ans;
+}

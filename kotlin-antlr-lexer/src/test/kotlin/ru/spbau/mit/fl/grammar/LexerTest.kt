@@ -115,12 +115,12 @@ internal class LexerTest {
     val functionLProgram: Pair<String, List<String>> = Pair(
             Paths.get("src", "test", "resources", "ru.spbau.mit.fl.grammar", "function.l").normalize().toFile().absolutePath,
             listOf(
-                    "FUNCDECL", "ID", "LPAREN", "ID", "COMMA", "ID", "RPAREN", "FUNCBODY",
+                    "FUNCDECL", "ID", "LPAREN", "ID", "COMMA", "ID", "RPAREN", "FUNCBODY", "LFIG",
                     "ID", "ASSIGN", "NUMBER", "SEP", "WHILE", "LPAREN", "ID", "NEQ", "BOOL",
                     "AND", "ID", "NEQ", "BOOL", "RPAREN", "LFIG", "ID", "ASSIGN", "ID", "PLUS", "NUMBER", "SEP",
                     "ID", "ASSIGN", "ID", "AND", "ID", "SEP", "ID", "ASSIGN", "ID", "OR", "ID", "SEP", "RFIG",
                     "IF", "LPAREN", "ID", "GEQ", "NUMBER", "RPAREN", "LFIG", "ID", "ASSIGN", "ID", "MINUS", "NUMBER",
-                    "SEP", "RFIG", "RETURN", "ID"
+                    "SEP", "RFIG", "RETURN", "ID", "SEP", "RFIG"
                     )
     )
 

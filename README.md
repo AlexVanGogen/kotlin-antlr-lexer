@@ -13,7 +13,7 @@ sh requirements.sh
 ## Инструкция по запуску
 
 ```
-./lexer.sh
+sh lexer.sh
 ```
 
 Передаваемые аргументы:
@@ -30,7 +30,7 @@ sh requirements.sh
 ## Примеры работы
 ### Чтение кода с консоли:
 ```
-$ ./lexer.sh -c
+$ sh lexer.sh -c
 while (x == 1) do {
 	y := a + b;
 }
@@ -56,7 +56,7 @@ RFIG       (1, 31, 32)
 
 ### Чтение из файла:
 ```
-$ ./lexer.sh -f examples/comment.l 
+$ sh lexer.sh -f examples/comment.l 
 ```
 Результат:
 ```
@@ -71,7 +71,7 @@ COMMENT    (3, 0, 26)
 
 ### Чтение с консоли файла кода с ошибкой
 ```
-$ ./lexer.sh -c
+$ sh lexer.sh -c
 a $= 1;
 ```
 Результат:
@@ -81,7 +81,7 @@ token recognition error at: '$' (line: 1, position: 2)
 
 ### Чтение из файла кода с ошибкой
 ```
-$ ./lexer.sh -f examples/bad/strangeSymbols2.l 
+$ sh lexer.sh -f examples/bad/strangeSymbols2.l 
 ```
 Результат:
 ```

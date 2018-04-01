@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/LexerTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/LexerTest.kt" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/function.l" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/function.l" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1043,7 +1041,7 @@
       <workItem from="1522150155436" duration="9154000" />
       <workItem from="1522506361784" duration="24703000" />
       <workItem from="1522538624073" duration="698000" />
-      <workItem from="1522612287136" duration="315000" />
+      <workItem from="1522612287136" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Add empty project">
       <created>1521796332543</created>
@@ -1115,7 +1113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522534199953</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add braces to function body">
+      <created>1522612642648</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522612642649</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1151,7 +1156,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36635000" />
+    <option name="totallyTimeSpent" value="36683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1232,7 +1237,8 @@
     <MESSAGE value="Rewrite Lexer class" />
     <MESSAGE value="Done" />
     <MESSAGE value="Improve cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve cli" />
+    <MESSAGE value="Add braces to function body" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add braces to function body" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

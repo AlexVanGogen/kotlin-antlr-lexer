@@ -50,6 +50,7 @@ RETURN          : 'return';
 // Operators
 PLUS            : '+' ;
 MINUS           : '-' ;
+POW             : '**' ;
 MULT            : '*' ;
 DIV             : '/' ;
 MOD             : '%' ;

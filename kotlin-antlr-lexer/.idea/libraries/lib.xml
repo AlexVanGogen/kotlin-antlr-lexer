@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-stdlib-jdk8-1.2.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/ST4-4.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/antlr4-4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/antlr4-runtime-4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-stdlib-1.2.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/javax.json-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/antlr-runtime-3.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/org.abego.treelayout.core-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-stdlib-jdk7-1.2.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/icu4j-58.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

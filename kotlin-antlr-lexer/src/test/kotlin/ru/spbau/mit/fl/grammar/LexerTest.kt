@@ -1,6 +1,5 @@
 package ru.spbau.mit.fl.grammar
 
-import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
@@ -31,6 +30,18 @@ internal class LexerTest {
 
     val incorrectNumbers: List<String> = listOf(
             ".5", ".1.2.3"
+    )
+
+    val programWithPower: Pair<String, List<TokenRepresentation>> = Pair(
+            "a := x ** 2;",
+            listOf(
+                    TokenRepresentation("ID", 1, 0, 1, "a"),
+                    TokenRepresentation("ASSIGN", 1, 2, 4, ":="),
+                    TokenRepresentation("ID", 1, 5, 6, "x"),
+                    TokenRepresentation("POW", 1, 7, 9, "**"),
+                    TokenRepresentation("NUMBER", 1, 10, 11, "2"),
+                    TokenRepresentation("SEP", 1, 11, 12, ";")
+            )
     )
 
     val oneLineProgram: Pair<String, List<TokenRepresentation>> = Pair(
@@ -146,6 +157,14 @@ internal class LexerTest {
             assertEquals(1, tokens.size)
             assertTrue(it.value == tokens[0])
         }
+    }
+
+    @Test
+    internal fun testPowerIsRecognized() {
+        val lexer = Lexer.fromString(programWithPower.first)
+        val tokens = lexer.run()
+        assertEquals(programWithPower.second.size, tokens.size)
+        assertTrue(programWithPower.second == tokens)
     }
 
     @Test

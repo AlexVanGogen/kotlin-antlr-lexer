@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kotlin-antlr-lexer-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/kotlin-antlr-lexer-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

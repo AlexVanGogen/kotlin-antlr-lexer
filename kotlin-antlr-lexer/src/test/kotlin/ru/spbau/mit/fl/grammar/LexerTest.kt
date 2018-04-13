@@ -146,7 +146,8 @@ internal class LexerTest {
                     "FUNCDECL", "FUNCBODY", "RETURN", "PLUS", "MINUS", "MULT", "DIV", "POW",
                     "MOD", "ASSIGN", "EQ", "NEQ", "GT", "GEQ", "LT", "LEQ", "AND", "OR",
                     "LPAREN", "RPAREN", "LFIG", "RFIG", "COMMA", "SEP",
-                    "NUMBER", "NUMBER", "NUMBER", "NUMBER", "COMMENT", "NUMBER"
+                    "NUMBER", "NUMBER", "NUMBER", "NUMBER", "COMMENT", "NUMBER",
+                    "NUMBER", "MINUS", "NUMBER", "NUMBER", "NUMBER"
             )
     )
 

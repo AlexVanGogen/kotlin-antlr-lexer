@@ -28,6 +28,10 @@ internal class LexerTest {
             "0.04890185043", "0.01", "19.1", "1."
     ).map { Pair(it, TokenRepresentation("NUMBER", 1, 0, it.length, it)) }.toMap()
 
+    val correctScientificNumbers: Map<String, TokenRepresentation> = listOf(
+            "-975.31e+2468", "1e10", "1e-10", "1E10", "1E-10", "-1E-10", "-0.004e-896"
+    ).map { Pair(it, TokenRepresentation("NUMBER", 1, 0, it.length, it)) }.toMap()
+
     val incorrectNumbers: List<String> = listOf(
             ".5", ".1.2.3"
     )
@@ -135,6 +139,17 @@ internal class LexerTest {
                     )
     )
 
+    val heapOfLexemsLProgram: Pair<String, List<String>> = Pair(
+            Paths.get("src", "test", "resources", "ru.spbau.mit.fl.grammar", "heap_of_lexems.l").normalize().toFile().absolutePath,
+            listOf(
+                    "IF", "THEN", "ELSE", "WHILE", "DO", "READ", "WRITE", "BOOL", "BOOL",
+                    "FUNCDECL", "FUNCBODY", "RETURN", "PLUS", "MINUS", "MULT", "DIV", "POW",
+                    "MOD", "ASSIGN", "EQ", "NEQ", "GT", "GEQ", "LT", "LEQ", "AND", "OR",
+                    "LPAREN", "RPAREN", "LFIG", "RFIG", "COMMA", "SEP",
+                    "NUMBER", "NUMBER", "NUMBER", "NUMBER", "COMMENT", "NUMBER"
+            )
+    )
+
     val badProgramNames: List<String> = listOf(
             "strangeSymbols.l", "strangeSymbols2.l", "strangeSymbols3.l"
     )
@@ -151,7 +166,7 @@ internal class LexerTest {
 
     @Test
     internal fun testNumbers() {
-        (correctDigits + correctNaturalNumbers + correctRealNumbers).forEach {
+        (correctDigits + correctNaturalNumbers + correctRealNumbers + correctScientificNumbers).forEach {
             val lexer = Lexer.fromString(it.key)
             val tokens = lexer.run()
             assertEquals(1, tokens.size)
@@ -197,6 +212,14 @@ internal class LexerTest {
         val tokens = lexer.run()
         assertEquals(functionLProgram.second.size, tokens.size)
         assertTrue(functionLProgram.second == tokens.map { it.type })
+    }
+
+    @Test
+    internal fun testHeapOfLexemsLProgram() {
+        val lexer = Lexer.fromFile(heapOfLexemsLProgram.first)
+        val tokens = lexer.run()
+        assertEquals(heapOfLexemsLProgram.second.size, tokens.size)
+        assertTrue(heapOfLexemsLProgram.second == tokens.map { it.type })
     }
 
     @Test

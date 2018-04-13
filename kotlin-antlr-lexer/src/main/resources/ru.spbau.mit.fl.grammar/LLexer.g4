@@ -34,7 +34,7 @@ NEWLINE         : '\r\n' | '\r' | '\n' {skip();};
 SPACE           : [\t ]+ -> skip;
 
 // One-line comments
-COMMENT         : '//' ~[\r\n]* ;
+COMMENT         : '//' ~('\n'|'\r')*;
 
 // Keywords
 WRITE           : 'write' ;
@@ -74,7 +74,8 @@ LFIG            : '{' ;
 RFIG            : '}' ;
 COMMA           : ',' ;
 
-NUMBER          : [0-9]+('.'[0-9]*)?;
+//Numbers
+NUMBER          : ('+'|'-')?([0-9]+('.'[0-9]*)?)((('e'|'E')(('+'|'-')?)([0-9]+('.'[0-9]*)?)))?;
 BOOL            : 'true' | 'false';
 
 // Identifiers

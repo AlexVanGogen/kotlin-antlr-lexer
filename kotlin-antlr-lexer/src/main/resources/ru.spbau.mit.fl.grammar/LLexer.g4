@@ -36,6 +36,9 @@ SPACE           : [\t ]+ -> skip;
 // One-line comments
 COMMENT         : '//' ~('\n'|'\r')*;
 
+// Multiline comments
+ML_COMMENT   : '/*' .*? '*/' ;
+
 // Keywords
 WRITE           : 'write' ;
 READ            : 'read' ;

@@ -151,6 +151,15 @@ internal class LexerTest {
             )
     )
 
+    val multilineCommentLProgram: Pair<String, List<String>> = Pair(
+            Paths.get("src", "test", "resources", "ru.spbau.mit.fl.grammar", "multiline_comment.l").normalize().toFile().absolutePath,
+            listOf(
+                    "ML_COMMENT", "ID", "ASSIGN", "NUMBER", "POW", "NUMBER", "SEP",
+                    "ML_COMMENT", "ML_COMMENT", "WRITE", "LPAREN", "ID", "RPAREN", "SEP",
+                    "ML_COMMENT", "ID", "ASSIGN", "NUMBER", "SEP"
+            )
+    )
+
     val badProgramNames: List<String> = listOf(
             "strangeSymbols.l", "strangeSymbols2.l", "strangeSymbols3.l"
     )
@@ -221,6 +230,14 @@ internal class LexerTest {
         val tokens = lexer.run()
         assertEquals(heapOfLexemsLProgram.second.size, tokens.size)
         assertTrue(heapOfLexemsLProgram.second == tokens.map { it.type })
+    }
+
+    @Test
+    internal fun testMultilineCommentsLProgram() {
+        val lexer = Lexer.fromFile(multilineCommentLProgram.first)
+        val tokens = lexer.run()
+        assertEquals(multilineCommentLProgram.second.size, tokens.size)
+        assertTrue(multilineCommentLProgram.second == tokens.map { it.type })
     }
 
     @Test

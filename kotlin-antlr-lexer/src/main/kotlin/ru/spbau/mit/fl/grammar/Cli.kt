@@ -40,6 +40,8 @@ fun main(args: Array<String>) {
             lexer.representTokenList(lexer.run())
         } catch (e: LexerException) {
             println(e.message)
+        } catch (e: ParserException) {
+            println(e.message)
         }
     }
 }

@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable1.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable2.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable3.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable4.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable5.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable6.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable7.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable8.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/bad/unparseable9.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/comments.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/different_priorities.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/functions.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/left_associative.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/problem_with_plus_and_minus.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/simple_arithmetic.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/simple_boolean.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/statements.l" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/comments.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/different_priorities.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/functions.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/left_associative.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/problem_with_plus_and_minus.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/simple_arithmetic.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/simple_boolean.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/parser/trees/statements.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer" />
       <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer.bat" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer.bat" />
       <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-stdlib-1.2.31.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-stdlib-jdk7-1.2.31.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-stdlib-jdk8-1.2.31.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/examples/function.l" afterPath="$PROJECT_DIR$/examples/function.l" />
-      <change beforePath="$PROJECT_DIR$/examples/simple.l" afterPath="$PROJECT_DIR$/examples/simple.l" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt" />
+      <change beforePath="$PROJECT_DIR$/lexer.sh" afterPath="$PROJECT_DIR$/lparser.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -129,8 +97,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lexer.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lexer.sh">
+      <file leaf-file-name="lparser.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lparser.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1126,7 +1094,7 @@
       <workItem from="1523618421829" duration="919000" />
       <workItem from="1523658715793" duration="22000" />
       <workItem from="1524907621963" duration="648000" />
-      <workItem from="1524908602931" duration="27588000" />
+      <workItem from="1524908602931" duration="27636000" />
     </task>
     <task id="LOCAL-00001" summary="Add empty project">
       <created>1521796332543</created>
@@ -1247,7 +1215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524958418948</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add parsing options to cli">
+      <created>1524959601334</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1524959601334</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1283,7 +1258,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79101000" />
+    <option name="totallyTimeSpent" value="79149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1372,7 +1347,8 @@
     <MESSAGE value="Add multiline comments support" />
     <MESSAGE value="Implement significant part of parser" />
     <MESSAGE value="Add comments handling and solve (1+1) problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments handling and solve (1+1) problem" />
+    <MESSAGE value="Add parsing options to cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add parsing options to cli" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1730,7 +1706,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lexer.sh">
+    <entry file="file://$PROJECT_DIR$/lparser.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

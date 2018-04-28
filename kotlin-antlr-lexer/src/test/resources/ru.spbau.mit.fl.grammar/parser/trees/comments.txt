@@ -1,0 +1,19 @@
+Program
+  Line
+    VariableAssignment
+      T[x]
+      T[:=]
+      ValueHolder
+        NumericConstant
+          T[1]
+      T[;]
+  Line
+    WriteStatement
+      T[write]
+      T[(]
+      ValueHolder
+        Variable
+          T[x]
+      T[)]
+      T[;]
+  T[<EOF>]

@@ -1,9 +1,29 @@
 package ru.spbau.mit.fl.grammar
 
-import org.antlr.v4.runtime.CharStreams
-import org.antlr.v4.runtime.CommonTokenStream
+import org.antlr.v4.runtime.*
 import java.io.StringReader
 import java.nio.file.Paths
+
+
+internal class LTokenStream(tokenSource: TokenSource) : CommonTokenStream(tokenSource) {
+    init {
+        var prevToken: Token? = null
+        while (true) {
+            val t = tokenSource.nextToken()
+            if (t.type == 36 && (t.text.startsWith("-") || t.text.startsWith("+")) && prevToken != null && prevToken.type in listOf(36, 38)) {
+                tokens.add(CommonToken(14, "+"))
+                tokens.add(t)
+            }
+            else if (t.type != 3 && t.type != 4) {
+                tokens.add(t)
+            }
+            if (t.text == "<EOF>") {
+                break
+            }
+            prevToken = t
+        }
+    }
+}
 
 class PParser {
 
@@ -11,11 +31,11 @@ class PParser {
 
     companion object {
         fun fromString(code: String): LParser.ProgramContext {
-            return LParser(CommonTokenStream(LLexer(CharStreams.fromReader(StringReader(code))))).program()
+            return LParser(LTokenStream(LLexer(CharStreams.fromReader(StringReader(code))))).program()
         }
 
         fun fromFile(codeFile: String): LParser.ProgramContext {
-            return LParser(CommonTokenStream(LLexer(CharStreams.fromFileName(codeFile)))).program()
+            return LParser(LTokenStream(LLexer(CharStreams.fromFileName(codeFile)))).program()
         }
     }
 }

@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
         println("Usage:")
         println("-c: tokenize code from user input")
         println("-f <filename>: tokenize code from file with given name")
+        println("-tc: parse and build tree for code from user input")
+        println("-tf <filename>: parse and build tree for code from file with given name")
     }
 
     fun readInput(): String {
@@ -18,7 +20,8 @@ fun main(args: Array<String>) {
         return sb.toString()
     }
 
-    var lexer: Lexer
+    var lexer: Lexer? = null
+    var parser: LParser.ProgramContext? = null
 
     if (args.isEmpty() || args.size > 2) {
         help()
@@ -34,10 +37,27 @@ fun main(args: Array<String>) {
                 println("${args[1]}: file not found")
                 return
             }
+            "-tc" -> parser = ParserContext.fromString(readInput())
+            "-tf" -> try {
+                parser = ParserContext.fromFile(args[1])
+            } catch (e: IndexOutOfBoundsException) {
+                help()
+                return
+            } catch (e: java.nio.file.NoSuchFileException) {
+                println("${args[1]}: file not found")
+                return
+            } catch (e: ParserException) {
+                println(e.message)
+                return
+            }
             else -> { help(); return; }
         }
         try {
-            lexer.representTokenList(lexer.run())
+            if (args[0] in listOf("-c", "-f")) {
+                lexer?.representTokenList(lexer.run())
+            } else {
+                println(toParseTree(parser!!).multilineString())
+            }
         } catch (e: LexerException) {
             println(e.message)
         } catch (e: ParserException) {

@@ -17,7 +17,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -29,7 +29,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -41,7 +41,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -53,7 +53,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -65,7 +65,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -77,7 +77,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -89,7 +89,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -102,7 +102,7 @@ internal class ParserTest {
         val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
         val parseTree = File(codeTree).readText()
 
-        val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
+        val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
         assertEquals(parseTree, result)
     }
 
@@ -114,7 +114,7 @@ internal class ParserTest {
             val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser/bad"
             val codeFile = Paths.get("$codeLocation/$programName.l").normalize().toFile().absolutePath;
 
-            assertThrows(ParserException::class.java, { toParseTree(PParser.fromFile(codeFile)).multilineString() } )
+            assertThrows(ParserException::class.java, { toParseTree(ParserContext.fromFile(codeFile)).multilineString() } )
         }
     }
 }

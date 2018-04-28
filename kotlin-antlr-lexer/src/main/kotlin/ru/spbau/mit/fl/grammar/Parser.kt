@@ -25,9 +25,7 @@ internal class LTokenStream(tokenSource: TokenSource) : CommonTokenStream(tokenS
     }
 }
 
-class PParser {
-
-    private var parser: LParser = LParser(null)
+class ParserContext {
 
     companion object {
         fun fromString(code: String): LParser.ProgramContext {
@@ -38,11 +36,4 @@ class PParser {
             return LParser(LTokenStream(LLexer(CharStreams.fromFileName(codeFile)))).program()
         }
     }
-}
-
-fun main(args: Array<String>) {
-    val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser/bad"
-    val codeFile = Paths.get("$codeLocation/unparseable10.l").normalize().toFile().absolutePath;
-    val result = toParseTree(PParser.fromFile(codeFile)).multilineString()
-    println(result)
 }

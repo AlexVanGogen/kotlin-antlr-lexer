@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\kotlin-antlr-lexer-1.0-SNAPSHOT.jar;%APP_HOME%\lib\antlr4-4.7.jar;%APP_HOME%\lib\antlr4-runtime-4.7.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.2.40.jar;%APP_HOME%\lib\ST4-4.0.8.jar;%APP_HOME%\lib\antlr-runtime-3.5.2.jar;%APP_HOME%\lib\org.abego.treelayout.core-1.0.3.jar;%APP_HOME%\lib\javax.json-1.0.4.jar;%APP_HOME%\lib\icu4j-58.2.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.2.40.jar;%APP_HOME%\lib\kotlin-stdlib-1.2.40.jar;%APP_HOME%\lib\annotations-13.0.jar
+set CLASSPATH=%APP_HOME%\lib\kotlin-antlr-lexer-1.0-SNAPSHOT.jar;%APP_HOME%\lib\antlr4-4.7.jar;%APP_HOME%\lib\antlr4-runtime-4.7.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.2.31.jar;%APP_HOME%\lib\ST4-4.0.8.jar;%APP_HOME%\lib\antlr-runtime-3.5.2.jar;%APP_HOME%\lib\org.abego.treelayout.core-1.0.3.jar;%APP_HOME%\lib\javax.json-1.0.4.jar;%APP_HOME%\lib\icu4j-58.2.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.2.31.jar;%APP_HOME%\lib\kotlin-stdlib-1.2.31.jar;%APP_HOME%\lib\annotations-13.0.jar
 
 @rem Execute kotlin-antlr-lexer
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %KOTLIN_ANTLR_LEXER_OPTS%  -classpath "%CLASSPATH%" ru.spbau.mit.fl.grammar.CliKt %CMD_LINE_ARGS%

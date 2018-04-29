@@ -64,7 +64,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar:$APP_HOME/lib/antlr4-4.7.jar:$APP_HOME/lib/antlr4-runtime-4.7.jar:$APP_HOME/lib/kotlin-stdlib-jdk8-1.2.40.jar:$APP_HOME/lib/ST4-4.0.8.jar:$APP_HOME/lib/antlr-runtime-3.5.2.jar:$APP_HOME/lib/org.abego.treelayout.core-1.0.3.jar:$APP_HOME/lib/javax.json-1.0.4.jar:$APP_HOME/lib/icu4j-58.2.jar:$APP_HOME/lib/kotlin-stdlib-jdk7-1.2.40.jar:$APP_HOME/lib/kotlin-stdlib-1.2.40.jar:$APP_HOME/lib/annotations-13.0.jar
+CLASSPATH=$APP_HOME/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar:$APP_HOME/lib/antlr4-4.7.jar:$APP_HOME/lib/antlr4-runtime-4.7.jar:$APP_HOME/lib/kotlin-stdlib-jdk8-1.2.31.jar:$APP_HOME/lib/ST4-4.0.8.jar:$APP_HOME/lib/antlr-runtime-3.5.2.jar:$APP_HOME/lib/org.abego.treelayout.core-1.0.3.jar:$APP_HOME/lib/javax.json-1.0.4.jar:$APP_HOME/lib/icu4j-58.2.jar:$APP_HOME/lib/kotlin-stdlib-jdk7-1.2.31.jar:$APP_HOME/lib/kotlin-stdlib-1.2.31.jar:$APP_HOME/lib/annotations-13.0.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then

@@ -4,7 +4,6 @@ import org.antlr.v4.runtime.*
 import java.io.StringReader
 import java.nio.file.Paths
 
-
 internal class LTokenStream(tokenSource: TokenSource) : CommonTokenStream(tokenSource) {
     init {
         var prevToken: Token? = null
@@ -36,4 +35,11 @@ class ParserContext {
             return LParser(LTokenStream(LLexer(CharStreams.fromFileName(codeFile)))).program()
         }
     }
+}
+
+fun main(args: Array<String>) {
+    val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser"
+    val codeFile = Paths.get("$codeLocation/statements.l").normalize().toFile().absolutePath;
+    val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
+    println(result)
 }

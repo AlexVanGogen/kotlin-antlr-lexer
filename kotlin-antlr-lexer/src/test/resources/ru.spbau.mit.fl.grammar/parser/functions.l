@@ -2,7 +2,7 @@ fun mult0() <- {
     return mult2(5, 3);
 }
 
-fun mult1(x) <- {
+fun mult1(x) {
     return mult2(5, x);
 }
 

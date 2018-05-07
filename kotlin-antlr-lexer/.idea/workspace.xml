@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="Fix building errors">
+    <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_40.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_40.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_40.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin-antlr-lexer_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/kotlin-antlr-lexer_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin-antlr-lexer_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/kotlin-antlr-lexer_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer" />
-      <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer.bat" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer.bat" />
       <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" afterPath="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" afterPath="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable2.l" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable2.l" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/problem_with_plus_and_minus.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/problem_with_plus_and_minus.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt" afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,20 +42,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LexerTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/LexerTest.kt">
+      <file leaf-file-name="functions.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2737">
-              <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
-                <marker date="1524959722958" expanded="true" signature="162:11929" ph="{...}" />
+                <element signature="e#33#117#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heap_of_lexems.l" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/heap_of_lexems.l">
+      <file leaf-file-name="statements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statements.l" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/statements.l">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -46,76 +84,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cli.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt">
+      <file leaf-file-name="simple_boolean.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LLexer.tokens" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.tokens">
+      <file leaf-file-name="simple_arithmetic.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="593">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kotlin-antlr-lexer" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/install/kotlin-antlr-lexer/bin/kotlin-antlr-lexer">
+      <file leaf-file-name="left_associative.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LLexer.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LLexer.g4">
+      <file leaf-file-name="ParseTree.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-              <folding>
-                <element signature="e#23#979#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="299">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.sh">
+      <file leaf-file-name="functions.l" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LLexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="137" column="5" lean-forward="false" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +137,8 @@
       <file leaf-file-name="Lexer.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Lexer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="209">
+              <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
                 <element signature="e#33#200#0" expanded="true" />
               </folding>
@@ -410,8 +424,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4570036795000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2833088997" />
+        <entry key="$PROJECT_DIR$" value="4570038797000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1689006866" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1135861508" />
       </map>
@@ -428,28 +442,28 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.31/5fe4e513f9127cd9cbc01cd7aed1cef64809a6f0/kotlin-gradle-plugin-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.31/b306d6fc4d26851d8540c96e795130f3e3fc081b/kotlin-gradle-plugin-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.31/719aa4d2c0eaa5727591754a1a419edcb25a3144/kotlin-gradle-plugin-api-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.31/407acaa8552b1bf4b020c2c9c9bab8578b0ed360/kotlin-gradle-plugin-api-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/a1a0b714cb760f9bd0f4f9d04915c1748eaefc64/kotlin-stdlib-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/153dcd9ed9db246a7e36f4d7609e2a9f4718c674/kotlin-stdlib-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.31/a61c4e03bdea91ee0ba701848d307ddf26773df0/kotlin-compiler-embeddable-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.31/29128887c407ed331d6dceef1a943ef0e51d6cfd/kotlin-compiler-embeddable-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.31/502570adbee637f17c9da8f9eedb2603b32a7e25/kotlin-annotation-processing-gradle-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.31/7270da5bce5e2d59d0f8a7125eb530503489a9ca/kotlin-annotation-processing-gradle-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.31/8fb96fbaa31b151ded5ce132d11053dfd6ba441a/kotlin-android-extensions-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.31/ce9cde5e684db1fe46989899f4ea46e1139d2b00/kotlin-android-extensions-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.31/ba6594af9d74aab1d099760ab5bd0493d0131e59/kotlin-compiler-runner-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.31/c3e737699e40744c6f2dfaffd9a12efa052f9a48/kotlin-compiler-runner-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/50562ad98c5398b7070b991b2e8c6da2567d27dc/kotlin-reflect-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/17c564968cae80b954b294f8564c492da56bd7b5/kotlin-reflect-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.31/2848047309c65f967363be064215f95d4d151649/kotlin-script-runtime-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.31/7904e817466f39297419e7ba3f296a2b86bb48be/kotlin-script-runtime-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.31/56f8ac3d4e3a32901e8fdcb0af666e4d4e3e82a1/kotlin-build-common-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.31/716e4d4f29c44edec90273e7ab59c7f0cc3ad15f/kotlin-build-common-1.2.31.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.31/345a28ecd54cc684208624fbe467feae15812d52/kotlin-daemon-client-1.2.31-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.31/158877756dbc90875652ea74abf860d481c21d4a/kotlin-daemon-client-1.2.31.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.40/12f05ce3b1b1fbc47b8d674a722956653c565f/kotlin-gradle-plugin-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.2.40/a5f1b6d72834cd21e402bf61f1303c8d705d49e/kotlin-gradle-plugin-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.40/caa566a72827e08c8a4c1bf03257a55b5c2e7e/kotlin-gradle-plugin-api-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.2.40/c0a04f1bb34364d657d4256e810de8fb7b4ab78/kotlin-gradle-plugin-api-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/f30f4d822ac6c4ef7a72c86a11896aab1cdf3a2a/kotlin-stdlib-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.40/d39920020ab3e74f406a8e142fb94b360f3f80f8/kotlin-stdlib-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.40/134afc6d18cb0afd6f6e97f3c1848e7dddf7e01d/kotlin-compiler-embeddable-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.2.40/94ec38ee25d34165f97f9d0feccd6573aecdf8a2/kotlin-compiler-embeddable-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.40/bd73c208c20c1c4d57b7e66d66e139c7d58c880a/kotlin-annotation-processing-gradle-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.40/e5c56f911827d8bad91d1dda7e1adf00960a2e5d/kotlin-annotation-processing-gradle-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.40/fe5d07cd68ef9b062faf9b615a9678dd673c1638/kotlin-android-extensions-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.40/5f124db1c11af4500eee2313ab4092f1c3f3f304/kotlin-android-extensions-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.40/4af6ba4a935c0535c58ee9acf521f353acaf42fe/kotlin-compiler-runner-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.2.40/17efd1fbc5f90f3daca96bf1036c07c856d930b8/kotlin-compiler-runner-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.40/77d7d852f9539604e6a575893504983c726d76f2/kotlin-reflect-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.40/d984261ef3ff59acfa4e8c0480c6e01df40853a4/kotlin-reflect-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.40/abfffc59c33e5d2b451d5825dc0ba0b87a8a4b21/kotlin-script-runtime-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.2.40/f9f881f1db66ba70870ab1cddc409142401b6cf0/kotlin-script-runtime-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.40/aa4eb8c73b2704db2aa327d1e187d54bed31c5e7/kotlin-build-common-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.2.40/f3a293f56ad831f570eb423add89ed80f3403774/kotlin-build-common-1.2.40.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.40/7a84b47921e6a82471432c0db6a37dbd93f8188d/kotlin-daemon-client-1.2.40-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.2.40/287b0d6bca848618f241f4868bcab5562c038c5b/kotlin-daemon-client-1.2.40.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
                           </list>
@@ -616,8 +630,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/TokenRepresentation.kt" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/comment.l" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LexerException.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/bad/strangeSymbols.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/bad/strangeSymbols2.l" />
@@ -628,23 +640,13 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Lexer.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/heap_of_lexems.l" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/parser/LLexer.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LLexer.g4" />
         <option value="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/LexerTest.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/simple_arithmetic.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/simple_boolean.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/left_associative.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/statements.l" />
-        <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable1.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable3.l" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/DefaultErrorStrategy.java" />
@@ -655,18 +657,30 @@
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable7.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable8.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable9.l" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/problem_with_minus.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/problem_with_minus.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable10.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt" />
         <option value="$PROJECT_DIR$/examples/function.l" />
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt" />
         <option value="$PROJECT_DIR$/examples/simple.l" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/requirements.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable2.l" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/problem_with_plus_and_minus.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt" />
       </list>
     </option>
   </component>
@@ -696,56 +710,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="buildOutputCleanup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="vcsWorkingDirs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="install" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="install" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin-antlr-lexer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="install" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin-antlr-lexer" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
@@ -857,14 +829,22 @@
             </path>
             <path>
               <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.spbau.mit.fl.grammar" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -927,7 +907,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.spbau.mit.fl.grammar.CliKt">
+  <component name="RunManager" selected="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1117,16 +1097,16 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ru.spbau.mit.fl.grammar.CliKt" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" />
         <item index="1" class="java.lang.String" itemvalue="Kotlin.ru.spbau.mit.fl.grammar.ParserKt" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ParserTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ParserTest" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ru.spbau.mit.fl.grammar.CliKt" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.LexerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1524960749131" />
+    <option name="lastUpdateTimestamp" value="1525719391333" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -1156,6 +1136,7 @@
       <workItem from="1523658715793" duration="22000" />
       <workItem from="1524907621963" duration="648000" />
       <workItem from="1524908602931" duration="27636000" />
+      <workItem from="1525719365752" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Add empty project">
       <created>1521796332543</created>
@@ -1297,19 +1278,17 @@
       <option name="project" value="LOCAL" />
       <updated>1524963057166</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fix building errors again">
+      <created>1524963633236</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1524963633236</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParserTest - 2018.04.29 at 01h 18m 56s.xml">
-      <configuration name="ParserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParserTest - 2018.04.29 at 01h 19m 20s.xml">
-      <configuration name="ParserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParserTest - 2018.04.29 at 01h 20m 08s.xml">
-      <configuration name="ParserTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParserTest - 2018.04.29 at 01h 20m 30s.xml">
       <configuration name="ParserTest" configurationId="JUnit" />
     </history-entry>
@@ -1328,52 +1307,30 @@
     <history-entry file="ParserTest - 2018.04.29 at 02h 32m 48s.xml">
       <configuration name="ParserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParserTest - 2018.05.07 at 22h 11m 53s.xml">
+      <configuration name="ParserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParserTest - 2018.05.07 at 22h 13m 03s.xml">
+      <configuration name="ParserTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ru_spbau_mit_fl_grammar_in_kotlin-antlr-lexer_test - 2018.04.29 at 02h 43m 56s.xml">
+      <configuration name="ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ru_spbau_mit_fl_grammar_in_kotlin-antlr-lexer_test - 2018.05.07 at 22h 24m 26s.xml">
       <configuration name="ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81648000" />
+    <option name="totallyTimeSpent" value="84863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2149437" sideWeight="0.47557998" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.26373628" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.89194137" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.490232" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.46336997" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.42307693" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.73626375" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.48046398" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2832723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.497558" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2149437" sideWeight="0.47557998" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.26007327" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.1941392" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.490232" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1383,19 +1340,24 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.495116" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.42490843" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.42307693" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.8058608" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.485348" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.8095238" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2802198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.89194137" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1451,98 +1413,16 @@
     <MESSAGE value="Add parsing options to cli" />
     <MESSAGE value="Migrate Kotlin to previous version" />
     <MESSAGE value="Fix building errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix building errors" />
+    <MESSAGE value="Fix building errors again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix building errors again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/DefaultErrorStrategy.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/ParserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="263" column="11" lean-forward="false" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="false" />
-            <element signature="e#1693#1694#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/LexerTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
-          <folding>
-            <marker date="1524959722958" expanded="true" signature="162:11929" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable6" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable6.l">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable4.l">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable5.l">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7/47651ddc6b58d2718afef967f24a1c57c8fe639e/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/ANTLRErrorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7/47651ddc6b58d2718afef967f24a1c57c8fe639e/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/DefaultErrorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding>
-            <element signature="e#1834#1835#0" expanded="false" />
-            <element signature="e#1865#1866#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable7.l">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable9.l">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1576,10 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="e#1800#1801#0" expanded="false" />
-            <element signature="e#1834#1835#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1597,31 +1473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Lexer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="e#33#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="137" column="5" lean-forward="false" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7/47651ddc6b58d2718afef967f24a1c57c8fe639e/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/Lexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="246" column="8" lean-forward="false" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,7 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
           <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1658,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="121" column="22" lean-forward="false" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1673,9 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding>
-            <element signature="e#4233#4234#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1686,38 +1536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/problem_with_plus_and_minus.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="78" lean-forward="false" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/comments.l">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1728,28 +1550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="110" column="62" lean-forward="false" selection-start-line="110" selection-start-column="62" selection-end-line="110" selection-end-column="62" />
-          <folding>
-            <element signature="e#33#260#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/comment.l">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1757,14 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1772,7 +1568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1803,7 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1817,10 +1611,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LLexer.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
+        <state relative-caret-position="663">
           <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding>
-            <element signature="e#23#979#1" expanded="true" />
+            <element signature="e#23#979#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1845,6 +1639,283 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/heap_of_lexems.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="764" column="9" lean-forward="false" selection-start-line="764" selection-start-column="9" selection-end-line="764" selection-end-column="9" />
+          <folding>
+            <element signature="e#1921#1990#0" expanded="false" />
+            <element signature="e#4264#4265#0" expanded="false" />
+            <element signature="e#4288#4289#0" expanded="false" />
+            <element signature="e#4338#4339#0" expanded="false" />
+            <element signature="e#4362#4363#0" expanded="false" />
+            <element signature="e#4956#4957#0" expanded="false" />
+            <element signature="e#5006#5007#0" expanded="false" />
+            <element signature="e#5041#5042#0" expanded="false" />
+            <element signature="e#5092#5093#0" expanded="false" />
+            <element signature="e#5163#5164#0" expanded="false" />
+            <element signature="e#5200#5201#0" expanded="false" />
+            <element signature="e#6805#6806#0" expanded="false" />
+            <element signature="e#6861#6862#0" expanded="false" />
+            <element signature="e#6929#6930#0" expanded="false" />
+            <element signature="e#6966#6967#0" expanded="false" />
+            <element signature="e#8130#8131#0" expanded="false" />
+            <element signature="e#8167#8168#0" expanded="false" />
+            <element signature="e#8314#8315#0" expanded="false" />
+            <element signature="e#8342#8343#0" expanded="false" />
+            <element signature="e#8529#8530#0" expanded="false" />
+            <element signature="e#8586#8587#0" expanded="false" />
+            <element signature="e#8760#8761#0" expanded="false" />
+            <element signature="e#8801#8802#0" expanded="false" />
+            <element signature="e#8908#8909#0" expanded="false" />
+            <element signature="e#8949#8950#0" expanded="false" />
+            <element signature="e#9062#9063#0" expanded="false" />
+            <element signature="e#9117#9118#0" expanded="false" />
+            <element signature="e#9162#9163#0" expanded="false" />
+            <element signature="e#9218#9219#0" expanded="false" />
+            <element signature="e#9845#9846#0" expanded="false" />
+            <element signature="e#9902#9903#0" expanded="false" />
+            <element signature="e#11456#11457#0" expanded="false" />
+            <element signature="e#11513#11514#0" expanded="false" />
+            <element signature="e#12622#12623#0" expanded="false" />
+            <element signature="e#12677#12678#0" expanded="false" />
+            <element signature="e#12722#12723#0" expanded="false" />
+            <element signature="e#12778#12779#0" expanded="false" />
+            <element signature="e#13481#13482#0" expanded="false" />
+            <element signature="e#13538#13539#0" expanded="false" />
+            <element signature="e#14269#14270#0" expanded="false" />
+            <element signature="e#14326#14327#0" expanded="false" />
+            <element signature="e#14569#14570#0" expanded="false" />
+            <element signature="e#14624#14625#0" expanded="false" />
+            <element signature="e#14669#14670#0" expanded="false" />
+            <element signature="e#14725#14726#0" expanded="false" />
+            <element signature="e#15313#15314#0" expanded="false" />
+            <element signature="e#15370#15371#0" expanded="false" />
+            <element signature="e#15617#15618#0" expanded="false" />
+            <element signature="e#15672#15673#0" expanded="false" />
+            <element signature="e#15717#15718#0" expanded="false" />
+            <element signature="e#15773#15774#0" expanded="false" />
+            <element signature="e#16306#16307#0" expanded="false" />
+            <element signature="e#16363#16364#0" expanded="false" />
+            <element signature="e#17107#17108#0" expanded="false" />
+            <element signature="e#17146#17147#0" expanded="false" />
+            <element signature="e#17532#17533#0" expanded="false" />
+            <element signature="e#17574#17575#0" expanded="false" />
+            <element signature="e#17695#17696#0" expanded="false" />
+            <element signature="e#17750#17751#0" expanded="false" />
+            <element signature="e#17795#17796#0" expanded="false" />
+            <element signature="e#17851#17852#0" expanded="false" />
+            <element signature="e#25972#25973#0" expanded="false" />
+            <element signature="e#26009#26010#0" expanded="false" />
+            <element signature="e#26159#26160#0" expanded="false" />
+            <element signature="e#26187#26188#0" expanded="false" />
+            <element signature="e#26376#26377#0" expanded="false" />
+            <element signature="e#26433#26434#0" expanded="false" />
+            <element signature="e#27144#27145#0" expanded="false" />
+            <element signature="e#27200#27201#0" expanded="false" />
+            <element signature="e#27247#27248#0" expanded="false" />
+            <element signature="e#27304#27305#0" expanded="false" />
+            <element signature="e#28796#28797#0" expanded="false" />
+            <element signature="e#28852#28853#0" expanded="false" />
+            <element signature="e#28899#28900#0" expanded="false" />
+            <element signature="e#28956#28957#0" expanded="false" />
+            <element signature="e#29695#29696#0" expanded="false" />
+            <element signature="e#29751#29752#0" expanded="false" />
+            <element signature="e#29798#29799#0" expanded="false" />
+            <element signature="e#29855#29856#0" expanded="false" />
+            <element signature="e#30674#30675#0" expanded="false" />
+            <element signature="e#30733#30734#0" expanded="false" />
+            <element signature="e#31391#31392#0" expanded="false" />
+            <element signature="e#31447#31448#0" expanded="false" />
+            <element signature="e#31494#31495#0" expanded="false" />
+            <element signature="e#31551#31552#0" expanded="false" />
+            <element signature="e#31732#31733#0" expanded="false" />
+            <element signature="e#31774#31775#0" expanded="false" />
+            <element signature="e#32405#32406#0" expanded="false" />
+            <element signature="e#32461#32462#0" expanded="false" />
+            <element signature="e#32508#32509#0" expanded="false" />
+            <element signature="e#32565#32566#0" expanded="false" />
+            <element signature="e#33365#33366#0" expanded="false" />
+            <element signature="e#33421#33422#0" expanded="false" />
+            <element signature="e#33468#33469#0" expanded="false" />
+            <element signature="e#33525#33526#0" expanded="false" />
+            <element signature="e#34403#34404#0" expanded="false" />
+            <element signature="e#34459#34460#0" expanded="false" />
+            <element signature="e#34506#34507#0" expanded="false" />
+            <element signature="e#34563#34564#0" expanded="false" />
+            <element signature="e#43442#43443#0" expanded="false" />
+            <element signature="e#43479#43480#0" expanded="false" />
+            <element signature="e#43635#43636#0" expanded="false" />
+            <element signature="e#43663#43664#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/LexerTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="163" column="5" lean-forward="false" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable1.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/bad/unparseable2.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Lexer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="e#33#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/problem_with_plus_and_minus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_arithmetic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#33#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/statements.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -5,94 +5,57 @@ Program
         BinaryAddingOperation
           ValueHolder
             NumericConstant
-              T[1]
-          T[+]
           ValueHolder
             NumericConstant
-              T[2]
-        T[+]
         ValueHolder
           NumericConstant
-            T[3]
-      T[;]
   Line
     OneLineExpression
       BinaryAddingOperation
         BinaryAddingOperation
           ValueHolder
             NumericConstant
-              T[4]
-          T[-]
           ValueHolder
             NumericConstant
-              T[5]
-        T[-]
         ValueHolder
           NumericConstant
-            T[6]
-      T[;]
   Line
     OneLineExpression
       BinaryMultiplicationOperation
         BinaryMultiplicationOperation
           ValueHolder
             NumericConstant
-              T[7]
-          T[*]
           ValueHolder
             NumericConstant
-              T[8]
-        T[*]
         ValueHolder
           NumericConstant
-            T[9]
-      T[;]
   Line
     OneLineExpression
       BooleanEqualityOperation
         BooleanEqualityOperation
           ValueHolder
             NumericConstant
-              T[10]
-          T[==]
           ValueHolder
             NumericConstant
-              T[11]
-        T[==]
         ValueHolder
           NumericConstant
-            T[12]
-      T[;]
   Line
     OneLineExpression
       BooleanLogicalOperation
         BooleanLogicalOperation
           ValueHolder
             NumericConstant
-              T[13]
-          T[||]
           ValueHolder
             NumericConstant
-              T[14]
-        T[||]
         ValueHolder
           NumericConstant
-            T[15]
-      T[;]
   Line
     OneLineExpression
       BooleanLogicalOperation
         BooleanLogicalOperation
           ValueHolder
             NumericConstant
-              T[16]
-          T[&&]
           ValueHolder
             NumericConstant
-              T[17]
-        T[&&]
         ValueHolder
           NumericConstant
-            T[18]
-      T[;]
-  T[<EOF>]

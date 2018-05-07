@@ -4,65 +4,40 @@ Program
       BinaryAddingOperation
         ValueHolder
           NumericConstant
-            T[1]
-        T[+]
         ValueHolder
           NumericConstant
-            T[+2]
-      T[;]
   Line
     OneLineExpression
       BinaryAddingOperation
         ValueHolder
           NumericConstant
-            T[1]
-        T[+]
         ValueHolder
           NumericConstant
-            T[-2]
-      T[;]
   Line
     OneLineExpression
       BinaryAddingOperation
         ValueHolder
           NumericConstant
-            T[1]
-        T[+]
         ValueHolder
           NumericConstant
-            T[-2]
-      T[;]
   Line
     OneLineExpression
       BinaryAddingOperation
         ValueHolder
           NumericConstant
-            T[1]
-        T[-]
         ValueHolder
           NumericConstant
-            T[-2]
-      T[;]
   Line
     OneLineExpression
       BinaryAddingOperation
         ValueHolder
           NumericConstant
-            T[1]
-        T[-]
         ValueHolder
           NumericConstant
-            T[+2]
-      T[;]
   Line
     OneLineExpression
       BinaryAddingOperation
         ValueHolder
           NumericConstant
-            T[1]
-        T[+]
         ValueHolder
           NumericConstant
-            T[+2]
-      T[;]
-  T[<EOF>]

@@ -44,7 +44,7 @@ fun toParseTree(node: ParserRuleContext) : ParseTreeNode {
     node.children.forEach { c ->
         when (c) {
             is ParserRuleContext -> res.child(toParseTree(c))
-            is TerminalNode -> res.child(ParseTreeLeaf(c.text))
+//            is TerminalNode -> res.child(ParseTreeLeaf(c.text))
         }
     }
     return res

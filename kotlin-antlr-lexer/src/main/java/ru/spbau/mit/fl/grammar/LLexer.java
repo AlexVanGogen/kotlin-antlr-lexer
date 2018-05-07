@@ -79,7 +79,6 @@ public class LLexer extends Lexer {
 	}
 
 	@Override
-
 	public Vocabulary getVocabulary() {
 		return VOCABULARY;
 	}

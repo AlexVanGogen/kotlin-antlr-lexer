@@ -81,22 +81,12 @@ if (x == 1) then {}
 Program
   Line
     BranchStatement
-      T[if]
       NestedExpression
-        T[(]
         BooleanEqualityOperation
           ValueHolder
             Variable
-              T[x]
-          T[==]
           ValueHolder
             NumericConstant
-              T[1]
-        T[)]
-      T[then]
-      T[{]
-      T[}]
-  T[<EOF>]
 ```
 
 ### Дерево разбора, чтение из файла
@@ -108,22 +98,12 @@ $ sh lparser.sh -tf examples/parser/comments.l
 Program
   Line
     VariableAssignment
-      T[x]
-      T[:=]
       ValueHolder
         NumericConstant
-          T[1]
-      T[;]
   Line
     WriteStatement
-      T[write]
-      T[(]
       ValueHolder
         Variable
-          T[x]
-      T[)]
-      T[;]
-  T[<EOF>]
 ```
 
 ### Чтение с консоли файла кода с ошибкой

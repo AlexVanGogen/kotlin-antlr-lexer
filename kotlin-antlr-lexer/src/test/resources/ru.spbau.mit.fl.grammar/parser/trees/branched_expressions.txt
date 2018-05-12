@@ -1,0 +1,37 @@
+Start of program
+	Assignment
+		To variable: x
+		Branched expression
+			Condition
+				Comparing operation
+					Operation: ==
+					Value: true
+					Value: false
+			True branch
+				Value: 1
+			False branch
+				Value: 2
+	Write
+		Multiplication operation
+			Operation: *
+			Branched expression
+				Condition
+					Comparing operation
+						Operation: ==
+						Value: x
+						Value: 2
+				True branch
+					Value: 2
+				False branch
+					Value: 3
+			Branched expression
+				Condition
+					Comparing operation
+						Operation: ==
+						Value: x
+						Value: 3
+				True branch
+					Value: 5
+				False branch
+					Value: 6
+End of program

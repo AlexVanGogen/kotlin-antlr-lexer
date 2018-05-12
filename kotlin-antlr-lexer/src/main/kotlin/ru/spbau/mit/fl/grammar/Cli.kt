@@ -1,5 +1,9 @@
 package ru.spbau.mit.fl.grammar
 
+import java.io.FileDescriptor
+import java.io.FileOutputStream
+import java.io.PrintStream
+
 fun main(args: Array<String>) {
 
     fun help() {
@@ -59,8 +63,10 @@ fun main(args: Array<String>) {
                 println(traverse(parser!!))
             }
         } catch (e: LexerException) {
+            System.setOut(PrintStream(FileOutputStream(FileDescriptor.out)))
             println(e.message)
         } catch (e: ParserException) {
+            System.setOut(PrintStream(FileOutputStream(FileDescriptor.out)))
             println(e.message)
         }
     }

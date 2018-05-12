@@ -124,6 +124,30 @@ public class LParserBaseListener implements LParserListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterOnelineNullaryFunctionDeclaration(LParser.OnelineNullaryFunctionDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitOnelineNullaryFunctionDeclaration(LParser.OnelineNullaryFunctionDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterOnelineNaryFunctionDeclaration(LParser.OnelineNaryFunctionDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitOnelineNaryFunctionDeclaration(LParser.OnelineNaryFunctionDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterReturnExpression(LParser.ReturnExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -203,6 +227,30 @@ public class LParserBaseListener implements LParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitFalseBody(LParser.FalseBodyContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterTrueExpression(LParser.TrueExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitTrueExpression(LParser.TrueExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterFalseExpression(LParser.FalseExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitFalseExpression(LParser.FalseExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -311,6 +359,18 @@ public class LParserBaseListener implements LParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBinaryMultiplicationOperation(LParser.BinaryMultiplicationOperationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterBranchedExpression(LParser.BranchedExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitBranchedExpression(LParser.BranchedExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

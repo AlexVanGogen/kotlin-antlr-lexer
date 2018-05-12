@@ -5,7 +5,6 @@ import org.antlr.v4.runtime.tree.ErrorNode
 import org.antlr.v4.runtime.tree.TerminalNode
 
 class LParserTreeListener: LParserListener {
-
     var indentationInTabs = 1
 
     override fun exitProgram(ctx: LParser.ProgramContext?) {
@@ -45,6 +44,62 @@ class LParserTreeListener: LParserListener {
     }
 
     override fun exitFalseBody(ctx: LParser.FalseBodyContext?) {
+        indentationInTabs--
+    }
+
+    override fun enterOnelineNullaryFunctionDeclaration(ctx: LParser.OnelineNullaryFunctionDeclarationContext?) {
+        printWithIndent("Function declaration")
+        indentationInTabs++
+        printWithIndent("Function name: ${ctx?.ID()}")
+        printWithIndent("Function body")
+        indentationInTabs++
+        printWithIndent("Return")
+        indentationInTabs++
+    }
+
+    override fun exitOnelineNullaryFunctionDeclaration(ctx: LParser.OnelineNullaryFunctionDeclarationContext?) {
+        indentationInTabs -= 3
+    }
+
+    override fun enterOnelineNaryFunctionDeclaration(ctx: LParser.OnelineNaryFunctionDeclarationContext?) {
+        printWithIndent("Function declaration")
+        indentationInTabs++
+        printWithIndent("Function name: ${ctx?.ID(0)}")
+        val args: List<String> = ctx?.ID()?.drop(1)?.map { it.text }!!
+        printWithIndent("Arguments: ${args.joinToString(", ")}")
+        indentationInTabs++
+        printWithIndent("Return")
+        indentationInTabs++
+    }
+
+    override fun exitOnelineNaryFunctionDeclaration(ctx: LParser.OnelineNaryFunctionDeclarationContext?) {
+        indentationInTabs -= 3
+    }
+
+    override fun enterTrueExpression(ctx: LParser.TrueExpressionContext?) {
+        printWithIndent("True branch")
+        indentationInTabs++
+    }
+
+    override fun exitTrueExpression(ctx: LParser.TrueExpressionContext?) {
+        indentationInTabs--
+    }
+
+    override fun enterFalseExpression(ctx: LParser.FalseExpressionContext?) {
+        printWithIndent("False branch")
+        indentationInTabs++
+    }
+
+    override fun exitFalseExpression(ctx: LParser.FalseExpressionContext?) {
+        indentationInTabs--
+    }
+
+    override fun enterBranchedExpression(ctx: LParser.BranchedExpressionContext?) {
+        printWithIndent("Branched expression")
+        indentationInTabs++
+    }
+
+    override fun exitBranchedExpression(ctx: LParser.BranchedExpressionContext?) {
         indentationInTabs--
     }
 
@@ -199,7 +254,10 @@ class LParserTreeListener: LParserListener {
     override fun enterVariableAssignment(ctx: LParser.VariableAssignmentContext?) {
         printWithIndent("Assignment")
         indentationInTabs++
-        printWithIndent("To variable: ${ctx?.ID()}")
+        val ids: List<String> = ctx?.ID()?.map { it.text }!!
+        ids.forEach {
+            printWithIndent("To variable: $it")
+        }
     }
 
     override fun exitVariableAssignment(ctx: LParser.VariableAssignmentContext?) {

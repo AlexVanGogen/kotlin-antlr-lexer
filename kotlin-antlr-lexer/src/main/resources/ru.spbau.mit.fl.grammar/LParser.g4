@@ -13,16 +13,21 @@ statement : READ LPAREN ID RPAREN SEP                                           
           | IF condition THEN LFIG true_body RFIG ELSE LFIG false_body RFIG          # BranchStatementWithElse
           | FUNCDECL ID LPAREN RPAREN LFIG statement* RFIG                           # NullaryFunctionDeclaration
           | FUNCDECL ID LPAREN ID (COMMA ID)* RPAREN LFIG statement* RFIG            # NaryFunctionDeclaration
+          | FUNCDECL ID LPAREN RPAREN FUNCBODY expression SEP                        # OnelineNullaryFunctionDeclaration
+          | FUNCDECL ID LPAREN ID (COMMA ID)* RPAREN FUNCBODY expression SEP         # OnelineNaryFunctionDeclaration
           | RETURN expression SEP                                                    # ReturnExpression
           | expression SEP                                                           # OneLineExpression
-          | ID ASSIGN expression SEP                                                 # VariableAssignment ;
+          | ID ASSIGN (ID ASSIGN)* expression SEP                                    # VariableAssignment ;
 
 condition : expression                                                               # ConditionExpression ;
 loop_body : statement*                                                               # LoopBody ;
 true_body : statement*                                                               # TrueBody ;
 false_body : statement*                                                              # FalseBody ;
+true_expression : expression                                                         # TrueExpression ;
+false_expression : expression                                                        # FalseExpression ;
 
-expression : LPAREN expression RPAREN                                    # NestedExpression
+expression : IF condition THEN true_expression ELSE false_expression     # BranchedExpression
+           | LPAREN expression RPAREN                                    # NestedExpression
            | value_holder                                                # ValueHolder
            | ID LPAREN RPAREN                                            # NullaryFunction
            | ID LPAREN expression (COMMA expression)* RPAREN             # NaryFunction

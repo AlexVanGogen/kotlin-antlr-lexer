@@ -112,6 +112,30 @@ public interface LParserListener extends ParseTreeListener {
 	 */
 	void exitNaryFunctionDeclaration(LParser.NaryFunctionDeclarationContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code OnelineNullaryFunctionDeclaration}
+	 * labeled alternative in {@link LParser#statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterOnelineNullaryFunctionDeclaration(LParser.OnelineNullaryFunctionDeclarationContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code OnelineNullaryFunctionDeclaration}
+	 * labeled alternative in {@link LParser#statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitOnelineNullaryFunctionDeclaration(LParser.OnelineNullaryFunctionDeclarationContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code OnelineNaryFunctionDeclaration}
+	 * labeled alternative in {@link LParser#statement}.
+	 * @param ctx the parse tree
+	 */
+	void enterOnelineNaryFunctionDeclaration(LParser.OnelineNaryFunctionDeclarationContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code OnelineNaryFunctionDeclaration}
+	 * labeled alternative in {@link LParser#statement}.
+	 * @param ctx the parse tree
+	 */
+	void exitOnelineNaryFunctionDeclaration(LParser.OnelineNaryFunctionDeclarationContext ctx);
+	/**
 	 * Enter a parse tree produced by the {@code ReturnExpression}
 	 * labeled alternative in {@link LParser#statement}.
 	 * @param ctx the parse tree
@@ -195,6 +219,30 @@ public interface LParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitFalseBody(LParser.FalseBodyContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code TrueExpression}
+	 * labeled alternative in {@link LParser#true_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterTrueExpression(LParser.TrueExpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code TrueExpression}
+	 * labeled alternative in {@link LParser#true_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitTrueExpression(LParser.TrueExpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code FalseExpression}
+	 * labeled alternative in {@link LParser#false_expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterFalseExpression(LParser.FalseExpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code FalseExpression}
+	 * labeled alternative in {@link LParser#false_expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitFalseExpression(LParser.FalseExpressionContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code NestedExpression}
 	 * labeled alternative in {@link LParser#expression}.
@@ -303,6 +351,18 @@ public interface LParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitBinaryMultiplicationOperation(LParser.BinaryMultiplicationOperationContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code BranchedExpression}
+	 * labeled alternative in {@link LParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterBranchedExpression(LParser.BranchedExpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code BranchedExpression}
+	 * labeled alternative in {@link LParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitBranchedExpression(LParser.BranchedExpressionContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code BooleanLogicalOperation}
 	 * labeled alternative in {@link LParser#expression}.

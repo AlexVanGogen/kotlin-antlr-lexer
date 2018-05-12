@@ -9,10 +9,10 @@ Start of program
 			Condition
 				Comparing operation
 					Operation: >=
-					Value: 2
-					Value: 1
+					Value: numeric constant 2
+					Value: numeric constant 1
 			True branch
-				Value: 1
+				Value: numeric constant 1
 			False branch
-				Value: 2
+				Value: numeric constant 2
 End of program

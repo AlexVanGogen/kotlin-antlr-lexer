@@ -6,8 +6,8 @@ Start of program
 				Function invocation
 					Function name: mult2
 					Arguments:
-						Value: 5
-						Value: 3
+						Value: numeric constant 5
+						Value: numeric constant 3
 	Function declaration
 		Function name: mult1
 		Arguments: x
@@ -15,8 +15,8 @@ Start of program
 				Function invocation
 					Function name: mult2
 					Arguments:
-						Value: 5
-						Value: x
+						Value: numeric constant 5
+						Value: variable x
 	Function declaration
 		Function name: mult2
 		Arguments: x, y
@@ -24,8 +24,8 @@ Start of program
 				Function invocation
 					Function name: mult3
 					Arguments:
-						Value: x
-						Value: y
+						Value: variable x
+						Value: variable y
 	Write
 		Additive operation
 			Operation: +
@@ -36,10 +36,10 @@ Start of program
 				Function invocation
 					Function name: mult1
 					Arguments:
-						Value: 3
+						Value: numeric constant 3
 				Function invocation
 					Function name: mult2
 					Arguments:
-						Value: 42
-						Value: 1
+						Value: numeric constant 42
+						Value: numeric constant 1
 End of program

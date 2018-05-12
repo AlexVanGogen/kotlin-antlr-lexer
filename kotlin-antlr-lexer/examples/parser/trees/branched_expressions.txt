@@ -5,12 +5,12 @@ Start of program
 			Condition
 				Comparing operation
 					Operation: ==
-					Value: true
-					Value: false
+					Value: boolean constant true
+					Value: boolean constant false
 			True branch
-				Value: 1
+				Value: numeric constant 1
 			False branch
-				Value: 2
+				Value: numeric constant 2
 	Write
 		Multiplication operation
 			Operation: *
@@ -18,20 +18,20 @@ Start of program
 				Condition
 					Comparing operation
 						Operation: ==
-						Value: x
-						Value: 2
+						Value: variable x
+						Value: numeric constant 2
 				True branch
-					Value: 2
+					Value: numeric constant 2
 				False branch
-					Value: 3
+					Value: numeric constant 3
 			Branched expression
 				Condition
 					Comparing operation
 						Operation: ==
-						Value: x
-						Value: 3
+						Value: variable x
+						Value: numeric constant 3
 				True branch
-					Value: 5
+					Value: numeric constant 5
 				False branch
-					Value: 6
+					Value: numeric constant 6
 End of program

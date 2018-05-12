@@ -74,33 +74,50 @@ COMMENT    (3, 0, 26)
 ### Дерево разбора, чтение с консоли
 ```
 $ sh lparser.sh -tc
-if (x == 1) then {}
-```
-Результат:
-```
-Start of program
-	Branch
-		Condition
-			Comparing operation
-				Operation: ==
-				Value: x
-				Value: 1
-		True branch
-End of program
-```
-
-### Дерево разбора, чтение из файла
-```
-$ sh lparser.sh -tf examples/parser/comments.l
+x := y := if (a == b) then a else b;
 ```
 Результат:
 ```
 Start of program
 	Assignment
 		To variable: x
-		Value: 1
-	Write
-		Value: x
+		To variable: y
+		Branched expression
+			Condition
+				Comparing operation
+					Operation: ==
+					Value: variable a
+					Value: variable b
+			True branch
+				Value: variable a
+			False branch
+				Value: variable b
+End of program
+```
+
+### Дерево разбора, чтение из файла
+```
+$ sh lparser.sh -tf examples/parser/multiple_assignments.l 
+```
+Результат:
+```
+Start of program
+	Assignment
+		To variable: x
+		To variable: y
+		To variable: z
+		To variable: a
+		To variable: b
+		Branched expression
+			Condition
+				Comparing operation
+					Operation: >=
+					Value: numeric constant 2
+					Value: numeric constant 1
+			True branch
+				Value: numeric constant 1
+			False branch
+				Value: numeric constant 2
 End of program
 ```
 

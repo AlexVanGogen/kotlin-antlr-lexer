@@ -83,8 +83,8 @@ Start of program
 		Condition
 			Comparing operation
 				Operation: ==
-				Value: x
-				Value: 1
+				Value: variable x
+				Value: numeric constant 1
 		True branch
 End of program
 ```
@@ -98,9 +98,9 @@ $ sh lparser.sh -tf examples/parser/comments.l
 Start of program
 	Assignment
 		To variable: x
-		Value: 1
+		Value: numeric constant 1
 	Write
-		Value: x
+		Value: variable x
 End of program
 ```
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/branched_expressions.l" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/multiple_assignments.l" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/multiple_assignments.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" afterDir="false" />
     </list>
@@ -32,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+            <state relative-caret-position="400">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#33#117#0" expanded="true" />
               </folding>
@@ -44,11 +45,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="multiple_assignments.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/multiple_assignments.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="branched_expressions.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/branched_expressions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ParserTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="343">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiple_assignments.l" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/multiple_assignments.l">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -238,36 +266,6 @@
                 <element signature="e#58782#58783#0" expanded="true" />
                 <element signature="e#58810#58811#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LLexer.tokens" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.tokens">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LParserTreeListener.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/LParserTreeListener.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="256" column="41" selection-start-line="256" selection-start-column="41" selection-end-line="256" selection-end-column="41" />
-              <folding>
-                <element signature="e#33#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oneline_functions.l" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/oneline_functions.l">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -777,9 +775,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/function.l" />
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/multiline_comment.l" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Lexer.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/heap_of_lexems.l" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/parser/LLexer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LLexer.g4" />
@@ -825,9 +820,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/oneline_functions.txt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/branched_expressions.l" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/branched_expressions.txt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/multiple_assignments.l" />
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/multiple_assignments.txt" />
       </list>
     </option>
   </component>
@@ -1070,7 +1068,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParserTest">
+  <component name="RunManager" selected="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1213,9 +1211,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParserTest" />
-        <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.ParserKt" />
         <item itemvalue="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" />
+        <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.ParserKt" />
+        <item itemvalue="JUnit.ParserTest" />
         <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.CliKt" />
         <item itemvalue="JUnit.LexerTest" />
       </list>
@@ -1428,13 +1426,17 @@
       <option name="project" value="LOCAL" />
       <updated>1526157877490</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Test branched expressions">
+      <created>1526158155262</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1526158155262</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ru_spbau_mit_fl_grammar_in_kotlin-antlr-lexer_test - 2018.05.12 at 22h 02m 38s.xml">
-      <configuration name="ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ru_spbau_mit_fl_grammar_in_kotlin-antlr-lexer_test - 2018.05.12 at 22h 03m 50s.xml">
       <configuration name="ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" configurationId="JUnit" />
     </history-entry>
@@ -1462,9 +1464,12 @@
     <history-entry file="ParserTest - 2018.05.12 at 23h 44m 12s.xml">
       <configuration name="ParserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParserTest - 2018.05.12 at 23h 48m 34s.xml">
+      <configuration name="ParserTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101630000" />
+    <option name="totallyTimeSpent" value="101966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1473,7 +1478,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" sideWeight="0.47557998" weight="0.2149437" />
       <window_info anchor="right" id="sbt" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21978022" side_tool="true" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50549453" side_tool="true" visible="true" weight="0.39897436" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -1484,13 +1489,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.495116" weight="0.39918116" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4945055" visible="true" weight="0.39897436" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4017094" weight="0.32923076" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7802198" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7802198" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48046398" weight="0.32923076" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
@@ -1568,7 +1573,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Define tokens" />
     <MESSAGE value="Remake this guy" />
     <MESSAGE value="Add parentheses" />
     <MESSAGE value="Add TokenRepresentation property and rewrite something" />
@@ -1593,7 +1597,8 @@
     <MESSAGE value="Rebuild jar" />
     <MESSAGE value="rebase" />
     <MESSAGE value="Test oneline functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test oneline functions" />
+    <MESSAGE value="Test branched expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test branched expressions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1601,27 +1606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7/47651ddc6b58d2718afef967f24a1c57c8fe639e/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/CommonToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/problem_with_plus_and_minus.l">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/comments.l">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lparser.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2080,10 +2064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/branched_expressions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="592">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -2094,13 +2078,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/multiple_assignments.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+        <state relative-caret-position="400">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#33#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/multiple_assignments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

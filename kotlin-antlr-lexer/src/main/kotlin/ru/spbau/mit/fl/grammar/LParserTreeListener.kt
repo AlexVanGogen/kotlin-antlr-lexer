@@ -62,7 +62,8 @@ class LParserTreeListener: LParserListener {
     }
 
     override fun enterBranchStatement(ctx: LParser.BranchStatementContext?) {
-        indentationInTabs--
+        printWithIndent("Branch")
+        indentationInTabs++
     }
 
     override fun enterBranchStatementWithElse(ctx: LParser.BranchStatementWithElseContext?) {

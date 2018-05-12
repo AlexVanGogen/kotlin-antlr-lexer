@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/install/kotlin-antlr-lexer/lib/kotlin-antlr-lexer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="731">
               <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
                 <element signature="e#33#117#0" expanded="true" />
@@ -45,7 +38,7 @@
       <file leaf-file-name="statements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
+            <state relative-caret-position="629">
               <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
             </state>
           </provider>
@@ -54,7 +47,7 @@
       <file leaf-file-name="ParserTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="1717">
               <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
             </state>
           </provider>
@@ -63,7 +56,7 @@
       <file leaf-file-name="simple_boolean.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
+            <state relative-caret-position="612">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -72,7 +65,7 @@
       <file leaf-file-name="LParser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1094">
+            <state relative-caret-position="13991">
               <caret line="837" column="17" selection-start-line="837" selection-start-column="17" selection-end-line="837" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,78 +125,6 @@
                 <element signature="e#17660#17661#0" expanded="true" />
                 <element signature="e#17705#17706#0" expanded="true" />
                 <element signature="e#17761#17762#0" expanded="true" />
-                <element signature="e#24236#24237#0" expanded="true" />
-                <element signature="e#24273#24274#0" expanded="true" />
-                <element signature="e#24420#24421#0" expanded="true" />
-                <element signature="e#24448#24449#0" expanded="true" />
-                <element signature="e#24568#24569#0" expanded="true" />
-                <element signature="e#24625#24626#0" expanded="true" />
-                <element signature="e#25743#25744#0" expanded="true" />
-                <element signature="e#25780#25781#0" expanded="true" />
-                <element signature="e#25927#25928#0" expanded="true" />
-                <element signature="e#25955#25956#0" expanded="true" />
-                <element signature="e#26068#26069#0" expanded="true" />
-                <element signature="e#26123#26124#0" expanded="true" />
-                <element signature="e#26168#26169#0" expanded="true" />
-                <element signature="e#26224#26225#0" expanded="true" />
-                <element signature="e#27689#27690#0" expanded="true" />
-                <element signature="e#27726#27727#0" expanded="true" />
-                <element signature="e#27873#27874#0" expanded="true" />
-                <element signature="e#27901#27902#0" expanded="true" />
-                <element signature="e#28014#28015#0" expanded="true" />
-                <element signature="e#28069#28070#0" expanded="true" />
-                <element signature="e#28114#28115#0" expanded="true" />
-                <element signature="e#28170#28171#0" expanded="true" />
-                <element signature="e#29638#29639#0" expanded="true" />
-                <element signature="e#29675#29676#0" expanded="true" />
-                <element signature="e#29825#29826#0" expanded="true" />
-                <element signature="e#29853#29854#0" expanded="true" />
-                <element signature="e#29968#29969#0" expanded="true" />
-                <element signature="e#30023#30024#0" expanded="true" />
-                <element signature="e#30068#30069#0" expanded="true" />
-                <element signature="e#30124#30125#0" expanded="true" />
-                <element signature="e#31602#31603#0" expanded="true" />
-                <element signature="e#31639#31640#0" expanded="true" />
-                <element signature="e#31789#31790#0" expanded="true" />
-                <element signature="e#31817#31818#0" expanded="true" />
-                <element signature="e#32006#32007#0" expanded="true" />
-                <element signature="e#32063#32064#0" expanded="true" />
-                <element signature="e#32774#32775#0" expanded="true" />
-                <element signature="e#32830#32831#0" expanded="true" />
-                <element signature="e#32877#32878#0" expanded="true" />
-                <element signature="e#32934#32935#0" expanded="true" />
-                <element signature="e#34426#34427#0" expanded="true" />
-                <element signature="e#34482#34483#0" expanded="true" />
-                <element signature="e#34529#34530#0" expanded="true" />
-                <element signature="e#34586#34587#0" expanded="true" />
-                <element signature="e#35325#35326#0" expanded="true" />
-                <element signature="e#35381#35382#0" expanded="true" />
-                <element signature="e#35428#35429#0" expanded="true" />
-                <element signature="e#35485#35486#0" expanded="true" />
-                <element signature="e#36304#36305#0" expanded="true" />
-                <element signature="e#36363#36364#0" expanded="true" />
-                <element signature="e#37021#37022#0" expanded="true" />
-                <element signature="e#37077#37078#0" expanded="true" />
-                <element signature="e#37124#37125#0" expanded="true" />
-                <element signature="e#37181#37182#0" expanded="true" />
-                <element signature="e#37362#37363#0" expanded="true" />
-                <element signature="e#37404#37405#0" expanded="true" />
-                <element signature="e#38035#38036#0" expanded="true" />
-                <element signature="e#38091#38092#0" expanded="true" />
-                <element signature="e#38138#38139#0" expanded="true" />
-                <element signature="e#38195#38196#0" expanded="true" />
-                <element signature="e#38995#38996#0" expanded="true" />
-                <element signature="e#39051#39052#0" expanded="true" />
-                <element signature="e#39098#39099#0" expanded="true" />
-                <element signature="e#39155#39156#0" expanded="true" />
-                <element signature="e#40033#40034#0" expanded="true" />
-                <element signature="e#40089#40090#0" expanded="true" />
-                <element signature="e#40136#40137#0" expanded="true" />
-                <element signature="e#40193#40194#0" expanded="true" />
-                <element signature="e#48895#48896#0" expanded="true" />
-                <element signature="e#48932#48933#0" expanded="true" />
-                <element signature="e#49088#49089#0" expanded="true" />
-                <element signature="e#49116#49117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,7 +133,7 @@
       <file leaf-file-name="LParserTreeListener.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/LParserTreeListener.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
+            <state relative-caret-position="1445">
               <caret line="85" column="28" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="28" />
               <folding>
                 <element signature="e#33#167#0" expanded="true" />
@@ -221,11 +142,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cli.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cli.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="286">
               <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LParser.g4" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="12" column="82" lean-forward="true" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -242,7 +172,7 @@
       <file leaf-file-name="ParseTree.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="918">
               <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
             </state>
           </provider>
@@ -307,7 +237,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="sugar" />
       </map>
     </option>
     <option name="RESET_MODE" value="SOFT" />
@@ -780,7 +710,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParserBaseListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/different_priorities.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/left_associative.txt" />
@@ -795,6 +724,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/LParserTreeListener.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
       </list>
     </option>
   </component>
@@ -1176,9 +1106,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" />
-        <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.ParserKt" />
-        <item itemvalue="JUnit.ParserTest" />
         <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.CliKt" />
+        <item itemvalue="JUnit.ParserTest" />
+        <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.ParserKt" />
         <item itemvalue="JUnit.LexerTest" />
       </list>
     </recent_temporary>
@@ -1206,7 +1136,7 @@
       <workItem from="1524907621963" duration="648000" />
       <workItem from="1524908602931" duration="27636000" />
       <workItem from="1525719365752" duration="2233000" />
-      <workItem from="1526130157962" duration="12785000" />
+      <workItem from="1526130157962" duration="13020000" />
     </task>
     <task id="LOCAL-00001" summary="Add empty project">
       <created>1521796332543</created>
@@ -1369,7 +1299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526152642620</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Rebuild jar">
+      <created>1526152846439</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526152846439</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1405,7 +1342,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98013000" />
+    <option name="totallyTimeSpent" value="98248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1504,7 +1441,8 @@
     <MESSAGE value="Fix building errors again" />
     <MESSAGE value="Fix errors with funcbody arrow, empty codes and literals in AST" />
     <MESSAGE value="Make informative AST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make informative AST" />
+    <MESSAGE value="Rebuild jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild jar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1718,13 +1656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/comments.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1773,23 +1704,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="731">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/simple_boolean.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1094">
+        <state relative-caret-position="13991">
           <caret line="837" column="17" selection-start-line="837" selection-start-column="17" selection-end-line="837" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1849,123 +1804,13 @@
             <element signature="e#17660#17661#0" expanded="true" />
             <element signature="e#17705#17706#0" expanded="true" />
             <element signature="e#17761#17762#0" expanded="true" />
-            <element signature="e#24236#24237#0" expanded="true" />
-            <element signature="e#24273#24274#0" expanded="true" />
-            <element signature="e#24420#24421#0" expanded="true" />
-            <element signature="e#24448#24449#0" expanded="true" />
-            <element signature="e#24568#24569#0" expanded="true" />
-            <element signature="e#24625#24626#0" expanded="true" />
-            <element signature="e#25743#25744#0" expanded="true" />
-            <element signature="e#25780#25781#0" expanded="true" />
-            <element signature="e#25927#25928#0" expanded="true" />
-            <element signature="e#25955#25956#0" expanded="true" />
-            <element signature="e#26068#26069#0" expanded="true" />
-            <element signature="e#26123#26124#0" expanded="true" />
-            <element signature="e#26168#26169#0" expanded="true" />
-            <element signature="e#26224#26225#0" expanded="true" />
-            <element signature="e#27689#27690#0" expanded="true" />
-            <element signature="e#27726#27727#0" expanded="true" />
-            <element signature="e#27873#27874#0" expanded="true" />
-            <element signature="e#27901#27902#0" expanded="true" />
-            <element signature="e#28014#28015#0" expanded="true" />
-            <element signature="e#28069#28070#0" expanded="true" />
-            <element signature="e#28114#28115#0" expanded="true" />
-            <element signature="e#28170#28171#0" expanded="true" />
-            <element signature="e#29638#29639#0" expanded="true" />
-            <element signature="e#29675#29676#0" expanded="true" />
-            <element signature="e#29825#29826#0" expanded="true" />
-            <element signature="e#29853#29854#0" expanded="true" />
-            <element signature="e#29968#29969#0" expanded="true" />
-            <element signature="e#30023#30024#0" expanded="true" />
-            <element signature="e#30068#30069#0" expanded="true" />
-            <element signature="e#30124#30125#0" expanded="true" />
-            <element signature="e#31602#31603#0" expanded="true" />
-            <element signature="e#31639#31640#0" expanded="true" />
-            <element signature="e#31789#31790#0" expanded="true" />
-            <element signature="e#31817#31818#0" expanded="true" />
-            <element signature="e#32006#32007#0" expanded="true" />
-            <element signature="e#32063#32064#0" expanded="true" />
-            <element signature="e#32774#32775#0" expanded="true" />
-            <element signature="e#32830#32831#0" expanded="true" />
-            <element signature="e#32877#32878#0" expanded="true" />
-            <element signature="e#32934#32935#0" expanded="true" />
-            <element signature="e#34426#34427#0" expanded="true" />
-            <element signature="e#34482#34483#0" expanded="true" />
-            <element signature="e#34529#34530#0" expanded="true" />
-            <element signature="e#34586#34587#0" expanded="true" />
-            <element signature="e#35325#35326#0" expanded="true" />
-            <element signature="e#35381#35382#0" expanded="true" />
-            <element signature="e#35428#35429#0" expanded="true" />
-            <element signature="e#35485#35486#0" expanded="true" />
-            <element signature="e#36304#36305#0" expanded="true" />
-            <element signature="e#36363#36364#0" expanded="true" />
-            <element signature="e#37021#37022#0" expanded="true" />
-            <element signature="e#37077#37078#0" expanded="true" />
-            <element signature="e#37124#37125#0" expanded="true" />
-            <element signature="e#37181#37182#0" expanded="true" />
-            <element signature="e#37362#37363#0" expanded="true" />
-            <element signature="e#37404#37405#0" expanded="true" />
-            <element signature="e#38035#38036#0" expanded="true" />
-            <element signature="e#38091#38092#0" expanded="true" />
-            <element signature="e#38138#38139#0" expanded="true" />
-            <element signature="e#38195#38196#0" expanded="true" />
-            <element signature="e#38995#38996#0" expanded="true" />
-            <element signature="e#39051#39052#0" expanded="true" />
-            <element signature="e#39098#39099#0" expanded="true" />
-            <element signature="e#39155#39156#0" expanded="true" />
-            <element signature="e#40033#40034#0" expanded="true" />
-            <element signature="e#40089#40090#0" expanded="true" />
-            <element signature="e#40136#40137#0" expanded="true" />
-            <element signature="e#40193#40194#0" expanded="true" />
-            <element signature="e#48895#48896#0" expanded="true" />
-            <element signature="e#48932#48933#0" expanded="true" />
-            <element signature="e#49088#49089#0" expanded="true" />
-            <element signature="e#49116#49117#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/statements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/ru/spbau/mit/fl/grammar/ParserTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#33#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/functions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/LParserTreeListener.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
+        <state relative-caret-position="1445">
           <caret line="85" column="28" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="28" />
           <folding>
             <element signature="e#33#167#0" expanded="true" />
@@ -1973,10 +1818,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/functions.l">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/ParseTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Cli.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="286">
           <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="12" column="82" lean-forward="true" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
         </state>
       </provider>
     </entry>

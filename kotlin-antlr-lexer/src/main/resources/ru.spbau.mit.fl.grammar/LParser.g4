@@ -11,8 +11,8 @@ statement : READ LPAREN ID RPAREN SEP                                           
           | WHILE condition DO LFIG loop_body RFIG                                   # LoopStatement
           | IF condition THEN LFIG true_body RFIG                                    # BranchStatement
           | IF condition THEN LFIG true_body RFIG ELSE LFIG false_body RFIG          # BranchStatementWithElse
-          | FUNCDECL ID LPAREN RPAREN FUNCBODY? LFIG statement* RFIG                 # NullaryFunctionDeclaration
-          | FUNCDECL ID LPAREN ID (COMMA ID)* RPAREN FUNCBODY? LFIG statement* RFIG  # NaryFunctionDeclaration
+          | FUNCDECL ID LPAREN RPAREN LFIG statement* RFIG                           # NullaryFunctionDeclaration
+          | FUNCDECL ID LPAREN ID (COMMA ID)* RPAREN LFIG statement* RFIG            # NaryFunctionDeclaration
           | RETURN expression SEP                                                    # ReturnExpression
           | expression SEP                                                           # OneLineExpression
           | ID ASSIGN expression SEP                                                 # VariableAssignment ;

@@ -78,15 +78,15 @@ if (x == 1) then {}
 ```
 Результат:
 ```
-Program
-  Line
-    BranchStatement
-      NestedExpression
-        BooleanEqualityOperation
-          ValueHolder
-            Variable
-          ValueHolder
-            NumericConstant
+Start of program
+	Branch
+		Condition
+			Comparing operation
+				Operation: ==
+				Value: x
+				Value: 1
+		True branch
+End of program
 ```
 
 ### Дерево разбора, чтение из файла
@@ -95,15 +95,13 @@ $ sh lparser.sh -tf examples/parser/comments.l
 ```
 Результат:
 ```
-Program
-  Line
-    VariableAssignment
-      ValueHolder
-        NumericConstant
-  Line
-    WriteStatement
-      ValueHolder
-        Variable
+Start of program
+	Assignment
+		To variable: x
+		Value: 1
+	Write
+		Value: x
+End of program
 ```
 
 ### Чтение с консоли файла кода с ошибкой

@@ -1,107 +1,45 @@
-Program
-  Line
-    NullaryFunctionDeclaration
-      T[fun]
-      T[mult0]
-      T[(]
-      T[)]
-      T[<-]
-      T[{]
-      ReturnExpression
-        T[return]
-        NaryFunction
-          T[mult2]
-          T[(]
-          ValueHolder
-            NumericConstant
-              T[5]
-          T[,]
-          ValueHolder
-            NumericConstant
-              T[3]
-          T[)]
-        T[;]
-      T[}]
-  Line
-    NaryFunctionDeclaration
-      T[fun]
-      T[mult1]
-      T[(]
-      T[x]
-      T[)]
-      T[<-]
-      T[{]
-      ReturnExpression
-        T[return]
-        NaryFunction
-          T[mult2]
-          T[(]
-          ValueHolder
-            NumericConstant
-              T[5]
-          T[,]
-          ValueHolder
-            Variable
-              T[x]
-          T[)]
-        T[;]
-      T[}]
-  Line
-    NaryFunctionDeclaration
-      T[fun]
-      T[mult2]
-      T[(]
-      T[x]
-      T[,]
-      T[y]
-      T[)]
-      T[<-]
-      T[{]
-      ReturnExpression
-        T[return]
-        NaryFunction
-          T[mult3]
-          T[(]
-          ValueHolder
-            Variable
-              T[x]
-          T[,]
-          ValueHolder
-            Variable
-              T[y]
-          T[)]
-        T[;]
-      T[}]
-  Line
-    WriteStatement
-      T[write]
-      T[(]
-      BinaryAddingOperation
-        NullaryFunction
-          T[mult0]
-          T[(]
-          T[)]
-        T[+]
-        BinaryMultiplicationOperation
-          NaryFunction
-            T[mult1]
-            T[(]
-            ValueHolder
-              NumericConstant
-                T[3]
-            T[)]
-          T[*]
-          NaryFunction
-            T[mult2]
-            T[(]
-            ValueHolder
-              NumericConstant
-                T[42]
-            T[,]
-            ValueHolder
-              NumericConstant
-                T[1]
-            T[)]
-      T[)]
-      T[;]
-  T[<EOF>]
+Start of program
+	Function declaration
+		Function name: mult0
+		Function body
+			Return
+				Function invocation
+					Function name: mult2
+					Arguments:
+						Value: numeric constant 5
+						Value: numeric constant 3
+	Function declaration
+		Function name: mult1
+		Arguments: x
+			Return
+				Function invocation
+					Function name: mult2
+					Arguments:
+						Value: numeric constant 5
+						Value: variable x
+	Function declaration
+		Function name: mult2
+		Arguments: x, y
+			Return
+				Function invocation
+					Function name: mult3
+					Arguments:
+						Value: variable x
+						Value: variable y
+	Write
+		Additive operation
+			Operation: +
+			Function invocation
+				Function name: mult0
+			Multiplication operation
+				Operation: *
+				Function invocation
+					Function name: mult1
+					Arguments:
+						Value: numeric constant 3
+				Function invocation
+					Function name: mult2
+					Arguments:
+						Value: numeric constant 42
+						Value: numeric constant 1
+End of program

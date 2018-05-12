@@ -39,7 +39,7 @@ class ParserFactory {
 
 fun main(args: Array<String>) {
     val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser"
-    val codeFile = Paths.get("$codeLocation/functions.l").normalize().toFile().absolutePath;
+    val codeFile = Paths.get("$codeLocation/statements.l").normalize().toFile().absolutePath;
     val result = traverse(ParserFactory.fromFile(codeFile))
     println(result)
 }

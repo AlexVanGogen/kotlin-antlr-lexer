@@ -1,45 +1,45 @@
 Start of program
 	Additive operation
 		Operation: +
-		Value: 2
+		Value: numeric constant 2
 		Multiplication operation
 			Operation: *
-			Value: 2
-			Value: 2
+			Value: numeric constant 2
+			Value: numeric constant 2
 	Additive operation
 		Operation: -
-		Value: 3
+		Value: numeric constant 3
 		Multiplication operation
 			Operation: /
-			Value: 3
-			Value: 3
+			Value: numeric constant 3
+			Value: numeric constant 3
 	Multiplication operation
 		Operation: %
-		Value: 4
+		Value: numeric constant 4
 		Exponential operation
 			Operation: **
-			Value: 4
-			Value: 4
+			Value: numeric constant 4
+			Value: numeric constant 4
 	Comparing operation
 		Operation: ==
 		Comparing operation
 			Operation: <=
-			Value: 3
-			Value: 5
+			Value: numeric constant 3
+			Value: numeric constant 5
 		Comparing operation
 			Operation: <=
-			Value: 5
-			Value: 7
+			Value: numeric constant 5
+			Value: numeric constant 7
 	Logical operation
 		Operation: &&
 		Comparing operation
 			Operation: !=
-			Value: 2
-			Value: 3
+			Value: numeric constant 2
+			Value: numeric constant 3
 		Comparing operation
 			Operation: ==
-			Value: 3
-			Value: 4
+			Value: numeric constant 3
+			Value: numeric constant 4
 	Additive operation
 		Operation: +
 		Additive operation
@@ -48,15 +48,15 @@ Start of program
 				Operation: +
 				Additive operation
 					Operation: +
-					Value: 2
+					Value: numeric constant 2
 					Multiplication operation
 						Operation: *
-						Value: 2
-						Value: 2
-				Value: 2
+						Value: numeric constant 2
+						Value: numeric constant 2
+				Value: numeric constant 2
 			Multiplication operation
 				Operation: *
-				Value: 2
-				Value: 2
-		Value: 2
+				Value: numeric constant 2
+				Value: numeric constant 2
+		Value: numeric constant 2
 End of program

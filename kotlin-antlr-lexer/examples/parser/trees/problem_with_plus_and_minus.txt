@@ -1,68 +1,26 @@
-Program
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-            T[1]
-        T[+]
-        ValueHolder
-          NumericConstant
-            T[+2]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-            T[1]
-        T[+]
-        ValueHolder
-          NumericConstant
-            T[-2]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-            T[1]
-        T[+]
-        ValueHolder
-          NumericConstant
-            T[-2]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-            T[1]
-        T[-]
-        ValueHolder
-          NumericConstant
-            T[-2]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-            T[1]
-        T[-]
-        ValueHolder
-          NumericConstant
-            T[+2]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-            T[1]
-        T[+]
-        ValueHolder
-          NumericConstant
-            T[+2]
-      T[;]
-  T[<EOF>]
+Start of program
+	Additive operation
+		Operation: +
+		Value: numeric constant 1
+		Value: numeric constant +2
+	Additive operation
+		Operation: +
+		Value: numeric constant 1
+		Value: numeric constant -2
+	Additive operation
+		Operation: +
+		Value: numeric constant 1
+		Value: numeric constant -2
+	Additive operation
+		Operation: -
+		Value: numeric constant 1
+		Value: numeric constant -2
+	Additive operation
+		Operation: -
+		Value: numeric constant 1
+		Value: numeric constant +2
+	Additive operation
+		Operation: +
+		Value: numeric constant 1
+		Value: numeric constant +2
+End of program

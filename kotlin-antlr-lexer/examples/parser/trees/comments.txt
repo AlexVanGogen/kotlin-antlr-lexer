@@ -1,19 +1,7 @@
-Program
-  Line
-    VariableAssignment
-      T[x]
-      T[:=]
-      ValueHolder
-        NumericConstant
-          T[1]
-      T[;]
-  Line
-    WriteStatement
-      T[write]
-      T[(]
-      ValueHolder
-        Variable
-          T[x]
-      T[)]
-      T[;]
-  T[<EOF>]
+Start of program
+	Assignment
+		To variable: x
+		Value: numeric constant 1
+	Write
+		Value: variable x
+End of program

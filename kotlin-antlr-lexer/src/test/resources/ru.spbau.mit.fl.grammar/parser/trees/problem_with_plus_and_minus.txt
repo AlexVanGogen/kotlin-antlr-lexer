@@ -1,26 +1,26 @@
 Start of program
 	Additive operation
 		Operation: +
-		Value: 1
-		Value: +2
+		Value: numeric constant 1
+		Value: numeric constant +2
 	Additive operation
 		Operation: +
-		Value: 1
-		Value: -2
+		Value: numeric constant 1
+		Value: numeric constant -2
 	Additive operation
 		Operation: +
-		Value: 1
-		Value: -2
+		Value: numeric constant 1
+		Value: numeric constant -2
 	Additive operation
 		Operation: -
-		Value: 1
-		Value: -2
+		Value: numeric constant 1
+		Value: numeric constant -2
 	Additive operation
 		Operation: -
-		Value: 1
-		Value: +2
+		Value: numeric constant 1
+		Value: numeric constant +2
 	Additive operation
 		Operation: +
-		Value: 1
-		Value: +2
+		Value: numeric constant 1
+		Value: numeric constant +2
 End of program

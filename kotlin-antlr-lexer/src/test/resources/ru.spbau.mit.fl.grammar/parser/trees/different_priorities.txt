@@ -1,79 +1,62 @@
-Program
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        BinaryMultiplicationOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        BinaryMultiplicationOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-  Line
-    OneLineExpression
-      BinaryMultiplicationOperation
-        ValueHolder
-          NumericConstant
-        BinaryExponentialOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-  Line
-    OneLineExpression
-      BooleanEqualityOperation
-        BooleanComparingOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        BooleanComparingOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        BooleanEqualityOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        BooleanEqualityOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        BinaryAddingOperation
-          BinaryAddingOperation
-            BinaryAddingOperation
-              ValueHolder
-                NumericConstant
-              BinaryMultiplicationOperation
-                ValueHolder
-                  NumericConstant
-                ValueHolder
-                  NumericConstant
-            ValueHolder
-              NumericConstant
-          BinaryMultiplicationOperation
-            ValueHolder
-              NumericConstant
-            ValueHolder
-              NumericConstant
-        ValueHolder
-          NumericConstant
+Start of program
+	Additive operation
+		Operation: +
+		Value: 2
+		Multiplication operation
+			Operation: *
+			Value: 2
+			Value: 2
+	Additive operation
+		Operation: -
+		Value: 3
+		Multiplication operation
+			Operation: /
+			Value: 3
+			Value: 3
+	Multiplication operation
+		Operation: %
+		Value: 4
+		Exponential operation
+			Operation: **
+			Value: 4
+			Value: 4
+	Comparing operation
+		Operation: ==
+		Comparing operation
+			Operation: <=
+			Value: 3
+			Value: 5
+		Comparing operation
+			Operation: <=
+			Value: 5
+			Value: 7
+	Logical operation
+		Operation: &&
+		Comparing operation
+			Operation: !=
+			Value: 2
+			Value: 3
+		Comparing operation
+			Operation: ==
+			Value: 3
+			Value: 4
+	Additive operation
+		Operation: +
+		Additive operation
+			Operation: +
+			Additive operation
+				Operation: +
+				Additive operation
+					Operation: +
+					Value: 2
+					Multiplication operation
+						Operation: *
+						Value: 2
+						Value: 2
+				Value: 2
+			Multiplication operation
+				Operation: *
+				Value: 2
+				Value: 2
+		Value: 2
+End of program

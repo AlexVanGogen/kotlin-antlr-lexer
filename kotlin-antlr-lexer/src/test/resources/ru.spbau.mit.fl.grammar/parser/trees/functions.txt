@@ -1,38 +1,45 @@
-Program
-  Line
-    NullaryFunctionDeclaration
-      ReturnExpression
-        NaryFunction
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-  Line
-    NaryFunctionDeclaration
-      ReturnExpression
-        NaryFunction
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            Variable
-  Line
-    NaryFunctionDeclaration
-      ReturnExpression
-        NaryFunction
-          ValueHolder
-            Variable
-          ValueHolder
-            Variable
-  Line
-    WriteStatement
-      BinaryAddingOperation
-        NullaryFunction
-        BinaryMultiplicationOperation
-          NaryFunction
-            ValueHolder
-              NumericConstant
-          NaryFunction
-            ValueHolder
-              NumericConstant
-            ValueHolder
-              NumericConstant
+Start of program
+	Function declaration
+		Function name: mult0
+		Function body
+			Return
+				Function invocation
+					Function name: mult2
+					Arguments:
+						Value: 5
+						Value: 3
+	Function declaration
+		Function name: mult1
+		Arguments: x
+			Return
+				Function invocation
+					Function name: mult2
+					Arguments:
+						Value: 5
+						Value: x
+	Function declaration
+		Function name: mult2
+		Arguments: x, y
+			Return
+				Function invocation
+					Function name: mult3
+					Arguments:
+						Value: x
+						Value: y
+	Write
+		Additive operation
+			Operation: +
+			Function invocation
+				Function name: mult0
+			Multiplication operation
+				Operation: *
+				Function invocation
+					Function name: mult1
+					Arguments:
+						Value: 3
+				Function invocation
+					Function name: mult2
+					Arguments:
+						Value: 42
+						Value: 1
+End of program

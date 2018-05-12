@@ -148,6 +148,54 @@ public interface LParserListener extends ParseTreeListener {
 	 */
 	void exitVariableAssignment(LParser.VariableAssignmentContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code ConditionExpression}
+	 * labeled alternative in {@link LParser#condition}.
+	 * @param ctx the parse tree
+	 */
+	void enterConditionExpression(LParser.ConditionExpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code ConditionExpression}
+	 * labeled alternative in {@link LParser#condition}.
+	 * @param ctx the parse tree
+	 */
+	void exitConditionExpression(LParser.ConditionExpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code LoopBody}
+	 * labeled alternative in {@link LParser#loop_body}.
+	 * @param ctx the parse tree
+	 */
+	void enterLoopBody(LParser.LoopBodyContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code LoopBody}
+	 * labeled alternative in {@link LParser#loop_body}.
+	 * @param ctx the parse tree
+	 */
+	void exitLoopBody(LParser.LoopBodyContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code TrueBody}
+	 * labeled alternative in {@link LParser#true_body}.
+	 * @param ctx the parse tree
+	 */
+	void enterTrueBody(LParser.TrueBodyContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code TrueBody}
+	 * labeled alternative in {@link LParser#true_body}.
+	 * @param ctx the parse tree
+	 */
+	void exitTrueBody(LParser.TrueBodyContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code FalseBody}
+	 * labeled alternative in {@link LParser#false_body}.
+	 * @param ctx the parse tree
+	 */
+	void enterFalseBody(LParser.FalseBodyContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code FalseBody}
+	 * labeled alternative in {@link LParser#false_body}.
+	 * @param ctx the parse tree
+	 */
+	void exitFalseBody(LParser.FalseBodyContext ctx);
+	/**
 	 * Enter a parse tree produced by the {@code NestedExpression}
 	 * labeled alternative in {@link LParser#expression}.
 	 * @param ctx the parse tree

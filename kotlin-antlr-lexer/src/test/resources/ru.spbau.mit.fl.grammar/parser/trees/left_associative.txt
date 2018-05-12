@@ -1,61 +1,44 @@
-Program
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        BinaryAddingOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        BinaryAddingOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryMultiplicationOperation
-        BinaryMultiplicationOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanEqualityOperation
-        BooleanEqualityOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        BooleanLogicalOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        BooleanLogicalOperation
-          ValueHolder
-            NumericConstant
-          ValueHolder
-            NumericConstant
-        ValueHolder
-          NumericConstant
+Start of program
+	Additive operation
+		Operation: +
+		Additive operation
+			Operation: +
+			Value: 1
+			Value: 2
+		Value: 3
+	Additive operation
+		Operation: -
+		Additive operation
+			Operation: -
+			Value: 4
+			Value: 5
+		Value: 6
+	Multiplication operation
+		Operation: *
+		Multiplication operation
+			Operation: *
+			Value: 7
+			Value: 8
+		Value: 9
+	Comparing operation
+		Operation: ==
+		Comparing operation
+			Operation: ==
+			Value: 10
+			Value: 11
+		Value: 12
+	Logical operation
+		Operation: ||
+		Logical operation
+			Operation: ||
+			Value: 13
+			Value: 14
+		Value: 15
+	Logical operation
+		Operation: &&
+		Logical operation
+			Operation: &&
+			Value: 16
+			Value: 17
+		Value: 18
+End of program

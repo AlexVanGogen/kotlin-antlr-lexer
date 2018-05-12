@@ -1,9 +1,7 @@
-Program
-  Line
-    VariableAssignment
-      ValueHolder
-        NumericConstant
-  Line
-    WriteStatement
-      ValueHolder
-        Variable
+Start of program
+	Assignment
+		To variable: x
+		Value: 1
+	Write
+		Value: x
+End of program

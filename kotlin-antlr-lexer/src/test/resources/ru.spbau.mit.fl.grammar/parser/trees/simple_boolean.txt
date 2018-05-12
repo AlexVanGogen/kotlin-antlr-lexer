@@ -1,65 +1,36 @@
-Program
-  Line
-    OneLineExpression
-      ValueHolder
-        BooleanConstant
-  Line
-    OneLineExpression
-      ValueHolder
-        BooleanConstant
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        ValueHolder
-          BooleanConstant
-        ValueHolder
-          BooleanConstant
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        ValueHolder
-          BooleanConstant
-        ValueHolder
-          BooleanConstant
-  Line
-    OneLineExpression
-      BooleanEqualityOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanEqualityOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanComparingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanComparingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanComparingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BooleanComparingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
+Start of program
+	Value: true
+	Value: false
+	Logical operation
+		Operation: ||
+		Value: true
+		Value: false
+	Logical operation
+		Operation: &&
+		Value: true
+		Value: true
+	Comparing operation
+		Operation: ==
+		Value: 0
+		Value: 0
+	Comparing operation
+		Operation: !=
+		Value: 1
+		Value: 1
+	Comparing operation
+		Operation: <
+		Value: 2
+		Value: 2
+	Comparing operation
+		Operation: <=
+		Value: 3
+		Value: 3
+	Comparing operation
+		Operation: >
+		Value: 4
+		Value: 4
+	Comparing operation
+		Operation: >=
+		Value: 5
+		Value: 5
+End of program

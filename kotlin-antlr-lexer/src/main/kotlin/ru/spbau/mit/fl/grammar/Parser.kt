@@ -24,22 +24,22 @@ internal class LTokenStream(tokenSource: TokenSource) : CommonTokenStream(tokenS
     }
 }
 
-class ParserContext {
+class ParserFactory {
 
     companion object {
-        fun fromString(code: String): LParser.ProgramContext {
-            return LParser(LTokenStream(LLexer(CharStreams.fromReader(StringReader(code))))).program()
+        fun fromString(code: String): LParser {
+            return LParser(LTokenStream(LLexer(CharStreams.fromReader(StringReader(code)))))
         }
 
-        fun fromFile(codeFile: String): LParser.ProgramContext {
-            return LParser(LTokenStream(LLexer(CharStreams.fromFileName(codeFile)))).program()
+        fun fromFile(codeFile: String): LParser {
+            return LParser(LTokenStream(LLexer(CharStreams.fromFileName(codeFile))))
         }
     }
 }
 
 fun main(args: Array<String>) {
     val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser"
-    val codeFile = Paths.get("$codeLocation/statements.l").normalize().toFile().absolutePath;
-    val result = toParseTree(ParserContext.fromFile(codeFile)).multilineString()
+    val codeFile = Paths.get("$codeLocation/functions.l").normalize().toFile().absolutePath;
+    val result = traverse(ParserFactory.fromFile(codeFile))
     println(result)
 }

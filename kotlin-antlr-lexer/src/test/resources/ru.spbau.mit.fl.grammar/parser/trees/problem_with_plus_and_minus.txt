@@ -1,43 +1,26 @@
-Program
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
+Start of program
+	Additive operation
+		Operation: +
+		Value: 1
+		Value: +2
+	Additive operation
+		Operation: +
+		Value: 1
+		Value: -2
+	Additive operation
+		Operation: +
+		Value: 1
+		Value: -2
+	Additive operation
+		Operation: -
+		Value: 1
+		Value: -2
+	Additive operation
+		Operation: -
+		Value: 1
+		Value: +2
+	Additive operation
+		Operation: +
+		Value: 1
+		Value: +2
+End of program

@@ -1,54 +1,31 @@
-Program
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryMultiplicationOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryMultiplicationOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryMultiplicationOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      BinaryExponentialOperation
-        ValueHolder
-          NumericConstant
-        ValueHolder
-          NumericConstant
-  Line
-    OneLineExpression
-      ValueHolder
-        NumericConstant
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        ValueHolder
-          Variable
-        ValueHolder
-          NumericConstant
+Start of program
+	Additive operation
+		Operation: +
+		Value: 1
+		Value: 1
+	Additive operation
+		Operation: -
+		Value: 2
+		Value: 2
+	Multiplication operation
+		Operation: *
+		Value: 3
+		Value: 3
+	Multiplication operation
+		Operation: /
+		Value: 4
+		Value: 4
+	Multiplication operation
+		Operation: %
+		Value: 5
+		Value: 5
+	Exponential operation
+		Operation: **
+		Value: 6
+		Value: 6
+	Value: 7
+	Additive operation
+		Operation: +
+		Value: x
+		Value: -8
+End of program

@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     }
 
     var lexer: Lexer? = null
-    var parser: LParser.ProgramContext? = null
+    var parser: LParser? = null
 
     if (args.isEmpty() || args.size > 2) {
         help()
@@ -37,9 +37,9 @@ fun main(args: Array<String>) {
                 println("${args[1]}: file not found")
                 return
             }
-            "-tc" -> parser = ParserContext.fromString(readInput())
+            "-tc" -> parser = ParserFactory.fromString(readInput())
             "-tf" -> try {
-                parser = ParserContext.fromFile(args[1])
+                parser = ParserFactory.fromFile(args[1])
             } catch (e: IndexOutOfBoundsException) {
                 help()
                 return
@@ -56,7 +56,7 @@ fun main(args: Array<String>) {
             if (args[0] in listOf("-c", "-f")) {
                 lexer?.representTokenList(lexer.run())
             } else {
-                println(toParseTree(parser!!).multilineString())
+                println(traverse(parser!!))
             }
         } catch (e: LexerException) {
             println(e.message)

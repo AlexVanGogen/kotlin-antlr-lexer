@@ -1,46 +1,47 @@
-Program
-  Line
-    ReadStatement
-  Line
-    LoopStatement
-      BooleanComparingOperation
-        ValueHolder
-          Variable
-        ValueHolder
-          NumericConstant
-      VariableAssignment
-        BinaryMultiplicationOperation
-          ValueHolder
-            Variable
-          ValueHolder
-            NumericConstant
-      BranchStatementWithElse
-        BooleanEqualityOperation
-          BinaryMultiplicationOperation
-            ValueHolder
-              Variable
-            ValueHolder
-              NumericConstant
-          ValueHolder
-            NumericConstant
-        WriteStatement
-          ValueHolder
-            Variable
-        VariableAssignment
-          BinaryAddingOperation
-            ValueHolder
-              Variable
-            ValueHolder
-              NumericConstant
-        WriteStatement
-          BinaryAddingOperation
-            ValueHolder
-              Variable
-            ValueHolder
-              NumericConstant
-        VariableAssignment
-          BinaryAddingOperation
-            ValueHolder
-              Variable
-            ValueHolder
-              NumericConstant
+Start of program
+	Read
+		To variable: x
+	Loop
+		Condition
+			Comparing operation
+				Operation: <=
+				Value: x
+				Value: 5
+		Body
+			Assignment
+				To variable: y
+				Multiplication operation
+					Operation: /
+					Value: x
+					Value: 2
+			Branch
+				Condition
+					Comparing operation
+						Operation: ==
+						Multiplication operation
+							Operation: %
+							Value: y
+							Value: 2
+						Value: 0
+				True branch
+					Write
+						Value: y
+					Assignment
+						To variable: x
+						Additive operation
+							Operation: +
+							Value: x
+							Value: 2
+				False branch
+					Write
+						Additive operation
+							Operation: +
+							Value: y
+							Value: 1
+					Assignment
+						To variable: x
+						Additive operation
+							Operation: +
+							Value: x
+							Value: 1
+End of program

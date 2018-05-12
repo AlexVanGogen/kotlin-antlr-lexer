@@ -107,6 +107,21 @@ internal class ParserTest {
     }
 
     @Test
+    internal fun testProgramWithOnelineFunctions() {
+        val programName = "oneline_functions"
+        val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser"
+        val codeFile = Paths.get("$codeLocation/$programName.l").normalize().toFile().absolutePath;
+        val codeTree = Paths.get("$codeLocation/trees/$programName.txt").normalize().toFile().absolutePath;
+        val parseTree = File(codeTree).readText()
+
+        val result = traverse(ParserFactory.fromFile(codeFile))
+        assertEquals(parseTree, result)
+
+        val parseSameFunctionsWithoutSugaringTree = File(Paths.get("$codeLocation/trees/functions.txt").normalize().toFile().absolutePath).readText()
+        assertEquals(parseTree, parseSameFunctionsWithoutSugaringTree)
+    }
+
+    @Test
     internal fun testUnparseablePrograms() {
         val programNames = (1..9).map { i -> "unparseable$i" }
 

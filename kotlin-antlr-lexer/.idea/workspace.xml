@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf575228-6267-4fb8-b07f-07cdfa0ccf3c" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/oneline_functions.l" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/oneline_functions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parser.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="451">
@@ -33,6 +31,15 @@
               <folding>
                 <element signature="e#33#117#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oneline_functions.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/oneline_functions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -247,24 +254,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LLexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LLexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-              <folding>
-                <element signature="e#3128#3129#0" expanded="true" />
-                <element signature="e#3152#3153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32198">
-              <caret line="1989" column="10" selection-start-line="1989" selection-start-column="10" selection-end-line="1989" selection-end-column="10" />
+              <caret line="2172" column="10" selection-start-line="2172" selection-start-column="10" selection-end-line="2172" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -783,7 +777,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/bad/strangeSymbols3.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/simple.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/function.l" />
         <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/multiline_comment.l" />
@@ -834,6 +827,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LParser.g4" />
         <option value="$PROJECT_DIR$/src/main/java/ru/spbau/mit/fl/grammar/LParser.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/ru/spbau/mit/fl/grammar/Parser.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/oneline_functions.txt" />
       </list>
     </option>
   </component>
@@ -999,6 +993,16 @@
             </path>
             <path>
               <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-antlr-lexer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.spbau.mit.fl.grammar" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-antlr-lexer" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -1066,7 +1070,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.spbau.mit.fl.grammar.ParserKt">
+  <component name="RunManager" selected="JUnit.ParserTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1209,10 +1213,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParserTest" />
         <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.ParserKt" />
         <item itemvalue="JUnit.ru.spbau.mit.fl.grammar in kotlin-antlr-lexer_test" />
         <item itemvalue="Kotlin.ru.spbau.mit.fl.grammar.CliKt" />
-        <item itemvalue="JUnit.ParserTest" />
         <item itemvalue="JUnit.LexerTest" />
       </list>
     </recent_temporary>
@@ -1410,7 +1414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526152846439</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="rebase">
+      <created>1526157644775</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526157644775</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1446,7 +1457,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101255000" />
+    <option name="totallyTimeSpent" value="101341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1455,7 +1466,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" sideWeight="0.47557998" weight="0.2149437" />
       <window_info anchor="right" id="sbt" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21916972" side_tool="true" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21978022" side_tool="true" visible="true" weight="0.32923076" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -1472,10 +1483,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78083026" visible="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48107448" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7802198" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.48046398" weight="0.32923076" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1574,7 +1585,8 @@
     <MESSAGE value="Fix errors with funcbody arrow, empty codes and literals in AST" />
     <MESSAGE value="Make informative AST" />
     <MESSAGE value="Rebuild jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuild jar" />
+    <MESSAGE value="rebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1582,13 +1594,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7/47651ddc6b58d2718afef967f24a1c57c8fe639e/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/ListTokenSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="121" column="22" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ru.spbau.mit.fl.grammar/LLexer.tokens">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1853,7 +1858,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32198">
-          <caret line="1989" column="10" selection-start-line="1989" selection-start-column="10" selection-end-line="1989" selection-end-column="10" />
+          <caret line="2172" column="10" selection-start-line="2172" selection-start-column="10" selection-end-line="2172" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -2078,6 +2083,13 @@
           <folding>
             <element signature="e#33#117#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ru.spbau.mit.fl.grammar/parser/trees/oneline_functions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>

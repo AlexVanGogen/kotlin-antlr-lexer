@@ -1,98 +1,44 @@
-Program
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        BinaryAddingOperation
-          ValueHolder
-            NumericConstant
-              T[1]
-          T[+]
-          ValueHolder
-            NumericConstant
-              T[2]
-        T[+]
-        ValueHolder
-          NumericConstant
-            T[3]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryAddingOperation
-        BinaryAddingOperation
-          ValueHolder
-            NumericConstant
-              T[4]
-          T[-]
-          ValueHolder
-            NumericConstant
-              T[5]
-        T[-]
-        ValueHolder
-          NumericConstant
-            T[6]
-      T[;]
-  Line
-    OneLineExpression
-      BinaryMultiplicationOperation
-        BinaryMultiplicationOperation
-          ValueHolder
-            NumericConstant
-              T[7]
-          T[*]
-          ValueHolder
-            NumericConstant
-              T[8]
-        T[*]
-        ValueHolder
-          NumericConstant
-            T[9]
-      T[;]
-  Line
-    OneLineExpression
-      BooleanEqualityOperation
-        BooleanEqualityOperation
-          ValueHolder
-            NumericConstant
-              T[10]
-          T[==]
-          ValueHolder
-            NumericConstant
-              T[11]
-        T[==]
-        ValueHolder
-          NumericConstant
-            T[12]
-      T[;]
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        BooleanLogicalOperation
-          ValueHolder
-            NumericConstant
-              T[13]
-          T[||]
-          ValueHolder
-            NumericConstant
-              T[14]
-        T[||]
-        ValueHolder
-          NumericConstant
-            T[15]
-      T[;]
-  Line
-    OneLineExpression
-      BooleanLogicalOperation
-        BooleanLogicalOperation
-          ValueHolder
-            NumericConstant
-              T[16]
-          T[&&]
-          ValueHolder
-            NumericConstant
-              T[17]
-        T[&&]
-        ValueHolder
-          NumericConstant
-            T[18]
-      T[;]
-  T[<EOF>]
+Start of program
+	Additive operation
+		Operation: +
+		Additive operation
+			Operation: +
+			Value: 1
+			Value: 2
+		Value: 3
+	Additive operation
+		Operation: -
+		Additive operation
+			Operation: -
+			Value: 4
+			Value: 5
+		Value: 6
+	Multiplication operation
+		Operation: *
+		Multiplication operation
+			Operation: *
+			Value: 7
+			Value: 8
+		Value: 9
+	Comparing operation
+		Operation: ==
+		Comparing operation
+			Operation: ==
+			Value: 10
+			Value: 11
+		Value: 12
+	Logical operation
+		Operation: ||
+		Logical operation
+			Operation: ||
+			Value: 13
+			Value: 14
+		Value: 15
+	Logical operation
+		Operation: &&
+		Logical operation
+			Operation: &&
+			Value: 16
+			Value: 17
+		Value: 18
+End of program

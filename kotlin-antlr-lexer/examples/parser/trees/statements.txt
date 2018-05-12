@@ -1,101 +1,47 @@
-Program
-  Line
-    ReadStatement
-      T[read]
-      T[(]
-      T[x]
-      T[)]
-      T[;]
-  Line
-    LoopStatement
-      T[while]
-      BooleanComparingOperation
-        ValueHolder
-          Variable
-            T[x]
-        T[<=]
-        ValueHolder
-          NumericConstant
-            T[5]
-      T[do]
-      T[{]
-      VariableAssignment
-        T[y]
-        T[:=]
-        BinaryMultiplicationOperation
-          ValueHolder
-            Variable
-              T[x]
-          T[/]
-          ValueHolder
-            NumericConstant
-              T[2]
-        T[;]
-      BranchStatementWithElse
-        T[if]
-        BooleanEqualityOperation
-          BinaryMultiplicationOperation
-            ValueHolder
-              Variable
-                T[y]
-            T[%]
-            ValueHolder
-              NumericConstant
-                T[2]
-          T[==]
-          ValueHolder
-            NumericConstant
-              T[0]
-        T[then]
-        T[{]
-        WriteStatement
-          T[write]
-          T[(]
-          ValueHolder
-            Variable
-              T[y]
-          T[)]
-          T[;]
-        VariableAssignment
-          T[x]
-          T[:=]
-          BinaryAddingOperation
-            ValueHolder
-              Variable
-                T[x]
-            T[+]
-            ValueHolder
-              NumericConstant
-                T[2]
-          T[;]
-        T[}]
-        T[else]
-        T[{]
-        WriteStatement
-          T[write]
-          T[(]
-          BinaryAddingOperation
-            ValueHolder
-              Variable
-                T[y]
-            T[+]
-            ValueHolder
-              NumericConstant
-                T[1]
-          T[)]
-          T[;]
-        VariableAssignment
-          T[x]
-          T[:=]
-          BinaryAddingOperation
-            ValueHolder
-              Variable
-                T[x]
-            T[+]
-            ValueHolder
-              NumericConstant
-                T[1]
-          T[;]
-        T[}]
-      T[}]
-  T[<EOF>]
+Start of program
+	Read
+		To variable: x
+	Loop
+		Condition
+			Comparing operation
+				Operation: <=
+				Value: x
+				Value: 5
+		Body
+			Assignment
+				To variable: y
+				Multiplication operation
+					Operation: /
+					Value: x
+					Value: 2
+			Branch
+				Condition
+					Comparing operation
+						Operation: ==
+						Multiplication operation
+							Operation: %
+							Value: y
+							Value: 2
+						Value: 0
+				True branch
+					Write
+						Value: y
+					Assignment
+						To variable: x
+						Additive operation
+							Operation: +
+							Value: x
+							Value: 2
+				False branch
+					Write
+						Additive operation
+							Operation: +
+							Value: y
+							Value: 1
+					Assignment
+						To variable: x
+						Additive operation
+							Operation: +
+							Value: x
+							Value: 1
+End of program

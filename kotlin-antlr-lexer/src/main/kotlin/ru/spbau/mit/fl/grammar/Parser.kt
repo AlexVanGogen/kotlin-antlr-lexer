@@ -36,10 +36,3 @@ class ParserFactory {
         }
     }
 }
-
-fun main(args: Array<String>) {
-    val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser"
-    val codeFile = Paths.get("$codeLocation/multiple_assignments.l").normalize().toFile().absolutePath;
-    val result = traverse(ParserFactory.fromFile(codeFile))
-    println(result)
-}

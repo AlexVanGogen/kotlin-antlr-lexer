@@ -172,7 +172,7 @@ class LParserTreeListener: LParserListener {
     }
 
     override fun enterValueHolder(ctx: LParser.ValueHolderContext?) {
-        printWithIndent("Value: ${ctx?.value_holder()?.text}")
+        print("\t".repeat(indentationInTabs) + "Value: ")
     }
 
     override fun exitValueHolder(ctx: LParser.ValueHolderContext?) {}
@@ -197,7 +197,9 @@ class LParserTreeListener: LParserListener {
         indentationInTabs--
     }
 
-    override fun enterBooleanConstant(ctx: LParser.BooleanConstantContext?) {}
+    override fun enterBooleanConstant(ctx: LParser.BooleanConstantContext?) {
+        println("boolean constant ${ctx?.text}")
+    }
 
     override fun exitBooleanConstant(ctx: LParser.BooleanConstantContext?) {}
 
@@ -310,9 +312,13 @@ class LParserTreeListener: LParserListener {
         printWithIndent("Operation: ${ctx?.operator?.text}")
     }
 
-    override fun enterNumericConstant(ctx: LParser.NumericConstantContext?) {}
+    override fun enterNumericConstant(ctx: LParser.NumericConstantContext?) {
+        println("numeric constant ${ctx?.text}")
+    }
 
-    override fun enterVariable(ctx: LParser.VariableContext?) {}
+    override fun enterVariable(ctx: LParser.VariableContext?) {
+        println("variable ${ctx?.text}")
+    }
 
     override fun visitTerminal(node: TerminalNode?) {}
 

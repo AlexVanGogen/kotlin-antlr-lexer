@@ -5,43 +5,43 @@ Start of program
 		Condition
 			Comparing operation
 				Operation: <=
-				Value: x
-				Value: 5
+				Value: variable x
+				Value: numeric constant 5
 		Body
 			Assignment
 				To variable: y
 				Multiplication operation
 					Operation: /
-					Value: x
-					Value: 2
+					Value: variable x
+					Value: numeric constant 2
 			Branch
 				Condition
 					Comparing operation
 						Operation: ==
 						Multiplication operation
 							Operation: %
-							Value: y
-							Value: 2
-						Value: 0
+							Value: variable y
+							Value: numeric constant 2
+						Value: numeric constant 0
 				True branch
 					Write
-						Value: y
+						Value: variable y
 					Assignment
 						To variable: x
 						Additive operation
 							Operation: +
-							Value: x
-							Value: 2
+							Value: variable x
+							Value: numeric constant 2
 				False branch
 					Write
 						Additive operation
 							Operation: +
-							Value: y
-							Value: 1
+							Value: variable y
+							Value: numeric constant 1
 					Assignment
 						To variable: x
 						Additive operation
 							Operation: +
-							Value: x
-							Value: 1
+							Value: variable x
+							Value: numeric constant 1
 End of program

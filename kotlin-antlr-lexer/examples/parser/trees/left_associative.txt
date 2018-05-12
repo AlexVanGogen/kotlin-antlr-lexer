@@ -3,42 +3,42 @@ Start of program
 		Operation: +
 		Additive operation
 			Operation: +
-			Value: 1
-			Value: 2
-		Value: 3
+			Value: numeric constant 1
+			Value: numeric constant 2
+		Value: numeric constant 3
 	Additive operation
 		Operation: -
 		Additive operation
 			Operation: -
-			Value: 4
-			Value: 5
-		Value: 6
+			Value: numeric constant 4
+			Value: numeric constant 5
+		Value: numeric constant 6
 	Multiplication operation
 		Operation: *
 		Multiplication operation
 			Operation: *
-			Value: 7
-			Value: 8
-		Value: 9
+			Value: numeric constant 7
+			Value: numeric constant 8
+		Value: numeric constant 9
 	Comparing operation
 		Operation: ==
 		Comparing operation
 			Operation: ==
-			Value: 10
-			Value: 11
-		Value: 12
+			Value: numeric constant 10
+			Value: numeric constant 11
+		Value: numeric constant 12
 	Logical operation
 		Operation: ||
 		Logical operation
 			Operation: ||
-			Value: 13
-			Value: 14
-		Value: 15
+			Value: numeric constant 13
+			Value: numeric constant 14
+		Value: numeric constant 15
 	Logical operation
 		Operation: &&
 		Logical operation
 			Operation: &&
-			Value: 16
-			Value: 17
-		Value: 18
+			Value: numeric constant 16
+			Value: numeric constant 17
+		Value: numeric constant 18
 End of program

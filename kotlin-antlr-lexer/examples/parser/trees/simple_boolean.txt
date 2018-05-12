@@ -1,36 +1,36 @@
 Start of program
-	Value: true
-	Value: false
+	Value: boolean constant true
+	Value: boolean constant false
 	Logical operation
 		Operation: ||
-		Value: true
-		Value: false
+		Value: boolean constant true
+		Value: boolean constant false
 	Logical operation
 		Operation: &&
-		Value: true
-		Value: true
+		Value: boolean constant true
+		Value: boolean constant true
 	Comparing operation
 		Operation: ==
-		Value: 0
-		Value: 0
+		Value: numeric constant 0
+		Value: numeric constant 0
 	Comparing operation
 		Operation: !=
-		Value: 1
-		Value: 1
+		Value: numeric constant 1
+		Value: numeric constant 1
 	Comparing operation
 		Operation: <
-		Value: 2
-		Value: 2
+		Value: numeric constant 2
+		Value: numeric constant 2
 	Comparing operation
 		Operation: <=
-		Value: 3
-		Value: 3
+		Value: numeric constant 3
+		Value: numeric constant 3
 	Comparing operation
 		Operation: >
-		Value: 4
-		Value: 4
+		Value: numeric constant 4
+		Value: numeric constant 4
 	Comparing operation
 		Operation: >=
-		Value: 5
-		Value: 5
+		Value: numeric constant 5
+		Value: numeric constant 5
 End of program

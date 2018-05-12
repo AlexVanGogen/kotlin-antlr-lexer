@@ -1,31 +1,31 @@
 Start of program
 	Additive operation
 		Operation: +
-		Value: 1
-		Value: 1
+		Value: numeric constant 1
+		Value: numeric constant 1
 	Additive operation
 		Operation: -
-		Value: 2
-		Value: 2
+		Value: numeric constant 2
+		Value: numeric constant 2
 	Multiplication operation
 		Operation: *
-		Value: 3
-		Value: 3
+		Value: numeric constant 3
+		Value: numeric constant 3
 	Multiplication operation
 		Operation: /
-		Value: 4
-		Value: 4
+		Value: numeric constant 4
+		Value: numeric constant 4
 	Multiplication operation
 		Operation: %
-		Value: 5
-		Value: 5
+		Value: numeric constant 5
+		Value: numeric constant 5
 	Exponential operation
 		Operation: **
-		Value: 6
-		Value: 6
-	Value: 7
+		Value: numeric constant 6
+		Value: numeric constant 6
+	Value: numeric constant 7
 	Additive operation
 		Operation: +
-		Value: x
-		Value: -8
+		Value: variable x
+		Value: numeric constant -8
 End of program

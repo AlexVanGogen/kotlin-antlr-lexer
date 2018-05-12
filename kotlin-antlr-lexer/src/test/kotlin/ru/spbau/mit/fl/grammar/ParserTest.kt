@@ -147,7 +147,7 @@ internal class ParserTest {
 
     @Test
     internal fun testUnparseablePrograms() {
-        val programNames = (1..9).map { i -> "unparseable$i" }
+        val programNames = (1..11).map { i -> "unparseable$i" }
 
         for (programName in programNames) {
             val codeLocation = "src/test/resources/ru.spbau.mit.fl.grammar/parser/bad"

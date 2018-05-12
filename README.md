@@ -7,6 +7,7 @@
 ```
 git clone https://github.com/AlexVanGogen/kotlin-antlr-lexer.git
 cd kotlin-antlr-lexer/kotlin-antlr-lexer
+git checkout sugar
 sh requirements.sh
 ```
 
